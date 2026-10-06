@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this dataset snapshot and the original sources in its provenance manifests."
+type: dataset
+title: "BidUPM: Construction Bid Item Matching Datasets"
+authors:
+  - name: "xuyuanshuo"
+repository-code: "https://github.com/xuyuanshuo/BidUPM"
+url: "https://github.com/xuyuanshuo/BidUPM"
+version: "0.1.0"
+date-released: "2026-10-05"
+keywords:
+  - construction
+  - bid item matching
+  - unit price averages
+  - Alberta

@@ -1,0 +1,24 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+materialized/
+data/
+local_runs/
+local_models/
+*.log
+# Expanded dataset payloads are restored from the versioned transport archives.
+/datasets/**
+!/datasets/**/
+!/datasets/**/README.md
+!/datasets/manifest.json
+!/datasets/packaging_qa.json
+!/datasets/bidupm12k/schema.json
+!/datasets/bidupm12k/split_counts.json
+!/datasets/ncdot_raw/full_pairs/manifest.json
