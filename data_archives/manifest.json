@@ -1,0 +1,1564 @@
+{
+  "schema_version": 1,
+  "format": "verified-zip-transport",
+  "snapshot_date": "2026-10-05",
+  "archives": [
+    {
+      "path": "alberta-001.zip",
+      "sha256": "724f23bac8009e9474332a1c5095daacb4fb6af5b7622520c46ebff09c34b7c5",
+      "size_bytes": 2143302,
+      "members": [
+        {
+          "path": "datasets/alberta/README.md",
+          "sha256": "f2c4c5123c8032d213c66ab3c04ef6fa25d5f85dccca2e1a1c31cea6a3d20e0b",
+          "size_bytes": 1166
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_first_pass_20260929/ai_firstpass_evaluation.json",
+          "sha256": "51844d834ca3b21c4f5042aba8bc823f84f21019280a6f959280eed05543c190",
+          "size_bytes": 340073
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_first_pass_20260929/ai_labels_001_045.json",
+          "sha256": "c64b88fc1b7db564ed455b65ef9c63d002b7d5f8af207c3f53177a8966fd2407",
+          "size_bytes": 17403
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_first_pass_20260929/ai_labels_046_090.json",
+          "sha256": "203f87485140948fae076407b5dd425bd32abb032be481a40b90536d878dbf3a",
+          "size_bytes": 16520
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_first_pass_20260929/ai_labels_091_135.json",
+          "sha256": "510d2168e48c08ec0383bd99bc9df2dc6bae98bb5a0db69518ae73b740d2530d",
+          "size_bytes": 11061
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_first_pass_20260929/阿尔伯塔_AI初审标注.xlsx",
+          "sha256": "718a9c9a0e9950b3247d0e0402322ea7f20740eb0738b7e2aeec7cd5205a4bce",
+          "size_bytes": 43465
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_first_pass_20260929/阿尔伯塔人工金标模板.xlsx",
+          "sha256": "59ae1e7abf1f593058d07069ddb05c384a8dad38d4d35a119355d5cfe2ccb9f0",
+          "size_bytes": 30435
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_reference_20261005/inputs/blind_source_items.json",
+          "sha256": "d60305154771a46fef1ca3b349f3bed81a53ba8483b622eb839f8ad817dbc1f1",
+          "size_bytes": 166480
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_reference_20261005/inputs/freeze_manifest.json",
+          "sha256": "c058af93a0f84b607d132906ba9d98d5a2d8d7ae42756960d6cf00435d5cd5ba",
+          "size_bytes": 247
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_reference_20261005/outputs/ai_reference.jsonl",
+          "sha256": "a594067cb3491f4baf3d8dadcbe08cd734f4fdc82685d3ca9603db95e69d45e9",
+          "size_bytes": 98132
+        },
+        {
+          "path": "datasets/alberta/annotation/ai_reference_20261005/outputs/manifest.json",
+          "sha256": "97675304e2a6494792e7ba774540de3d4287de671102154a383a345c486e9ea9",
+          "size_bytes": 1238
+        },
+        {
+          "path": "datasets/alberta/pairs_20260929/README_gold_evaluation.md",
+          "sha256": "d146cfc2528aa4b01a432f6d523e73b1837ac6a56a5e803c2dfa9a2028058936",
+          "size_bytes": 3438
+        },
+        {
+          "path": "datasets/alberta/pairs_20260929/alberta_2024_all_pairs_strict_clean_unlabeled.csv",
+          "sha256": "90d86c20ef9c32a49d1e77159b27fb994e0c1df887526375a796a2029fec2b03",
+          "size_bytes": 8523538
+        },
+        {
+          "path": "datasets/alberta/pairs_20260929/alberta_2024_all_pairs_unlabeled.csv",
+          "sha256": "59c231d30da9fbd26a573814850f244a00862fe0cdc963f84c93bf93fc2abf24",
+          "size_bytes": 9298948
+        },
+        {
+          "path": "datasets/alberta/pairs_20260929/alberta_frozen_plan.json",
+          "sha256": "5b16e1219783ad47b01563a97f826a6b3693b30c38b4c95b19ad60696593a90a",
+          "size_bytes": 3027
+        },
+        {
+          "path": "datasets/alberta/pairs_20260929/input_manifest.json",
+          "sha256": "66e2d9199a06d4ce2e71019cacd01b43bca07f82fe580b02c2bb4aaadc0ba95b",
+          "size_bytes": 2329
+        },
+        {
+          "path": "datasets/alberta/pairs_20260929/strict_clean_manifest.json",
+          "sha256": "4d67604c022c777fd5c726d6bfe14bc82e87e24f6150dda0fcd92c805fc7fec4",
+          "size_bytes": 443
+        }
+      ]
+    },
+    {
+      "path": "alberta-002.zip",
+      "sha256": "7d6f2d35988f2ebc1cc459f7029f894b0715d45bcf51f1e16b4e831d6e68ccce",
+      "size_bytes": 9373566,
+      "members": [
+        {
+          "path": "datasets/alberta/pairs_20261005/inference_pairs_cleaned.csv.gz",
+          "sha256": "cade723b588cdd0dded575a87f6da60146c388c69d32051e4d5479d140cfedcf",
+          "size_bytes": 3573031
+        },
+        {
+          "path": "datasets/alberta/pairs_20261005/inference_pairs_raw.csv.gz",
+          "sha256": "3cf8a9a49e602123e5e8c5d20a60eba38e56cc3297ca6dfab7bd9662a2e63a04",
+          "size_bytes": 3576859
+        },
+        {
+          "path": "datasets/alberta/pairs_20261005/input_manifest.json",
+          "sha256": "7730b62f92a9db00200831ac82c182127f2a0837999f698948ee5d24522f6c51",
+          "size_bytes": 6119
+        },
+        {
+          "path": "datasets/alberta/pairs_20261005/input_qa.json",
+          "sha256": "59233a1c65b75bfefe49dd255fe5da1254aa06c99cacd9527be01e8c3aeed4a2",
+          "size_bytes": 2103
+        },
+        {
+          "path": "datasets/alberta/pairs_20261005/input_schema.json",
+          "sha256": "3aec7e6f8cbb267dc7cafb317021dbb7b47dfb0299ddd4517711500beffbec8e",
+          "size_bytes": 4301
+        },
+        {
+          "path": "datasets/alberta/pairs_20261005/model_inputs_scope_core.csv.gz",
+          "sha256": "9338e138094080c4735e0873dd5a478e13d704a079c2abc7e376d9fc3de4f4fc",
+          "size_bytes": 1357059
+        },
+        {
+          "path": "datasets/alberta/parsed/early_matching_data.json",
+          "sha256": "bc71fe5d9b5de4ca4b669a6c02aaa3c7e01f7a824f2adb2054292b592910352a",
+          "size_bytes": 352492
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/audit_report.txt",
+          "sha256": "edf2e72e212106cce0301602ed7d01b6de2cf0cff7d385605a94984bd5b78db0",
+          "size_bytes": 4630
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/audit_summary.json",
+          "sha256": "2267812165995140b25f6c246dc74762d214f19b199af532d25c53f81a3b6e21",
+          "size_bytes": 66582
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/audit_validation.json",
+          "sha256": "4c971e6ff82998f135f1de86ce8906d2fe77d812ca28755fb6eb89cf72ba9c67",
+          "size_bytes": 422
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/raw_bid_items.csv",
+          "sha256": "9564e98909396784b3465fcd2339a543403f995f9dd3bfa2f975481702b31eda",
+          "size_bytes": 140835
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/raw_items.json",
+          "sha256": "766d599ee27e987d9cf0b585db66add7b7f660ff52f36b28f881d394c44a962d",
+          "size_bytes": 1239213
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/raw_upa_2024_items.csv",
+          "sha256": "93771a4031d9dc0be60781a15cc6d0c0e843f9e84cef4ab201ddf8fbf1284202",
+          "size_bytes": 231688
+        },
+        {
+          "path": "datasets/alberta/parsed/raw_import/raw_upa_2026_items.csv",
+          "sha256": "87feb9de3984a665b70cea70e28e8a0a8bcba184257224ad6552932a32d21f2d",
+          "size_bytes": 261226
+        },
+        {
+          "path": "datasets/alberta/raw/Price Form or Bid Form.xlsx",
+          "sha256": "ef29d332599a26bd9c49db031b85a714465047f71a83e47577e94eadb47fd78e",
+          "size_bytes": 20949
+        },
+        {
+          "path": "datasets/alberta/raw/trans-unit-price-averages.xlsx",
+          "sha256": "aec839c83a0b445676b69b0841c2f3fd29c7edf8b0da962f66ba2e71c587f7ac",
+          "size_bytes": 623795
+        }
+      ]
+    },
+    {
+      "path": "alberta_historical-001.zip",
+      "sha256": "848fb4e02f5d10a04b9efbf8f74862007478d0767c9a222ec56b74ea03829962",
+      "size_bytes": 177230,
+      "members": [
+        {
+          "path": "datasets/alberta_historical/README.md",
+          "sha256": "f2fdabac71666a5241f46ebd242871f676a8b69822449faadc1f939ff5579e20",
+          "size_bytes": 624
+        },
+        {
+          "path": "datasets/alberta_historical/alberta_code_anchored_external_pairs.csv",
+          "sha256": "9f6808cb7c1b815a8d4d68b6e3a9569d710681548e8f01bdd172eff51524ac54",
+          "size_bytes": 1225986
+        },
+        {
+          "path": "datasets/alberta_historical/alberta_unit_price_items_2019_2026.csv",
+          "sha256": "100aed6b4a3e5350e357f1e6ac1c65b962ee1ccad117e8c8b321b2c3db9354b6",
+          "size_bytes": 466324
+        },
+        {
+          "path": "datasets/alberta_historical/price_case_study/case_study_manifest.json",
+          "sha256": "5a4fa7e4452900a5e2a77b7ebe48633911d1f9ca5534f2a168b4cd263cb0fa97",
+          "size_bytes": 743
+        },
+        {
+          "path": "datasets/alberta_historical/price_case_study/heldout_2026_metrics.csv",
+          "sha256": "774d7e089e4cb02033ede5e274ddc38e59ef9c6301974230f4fd56e72bfa1a35",
+          "size_bytes": 558
+        },
+        {
+          "path": "datasets/alberta_historical/price_case_study/heldout_2026_predictions.csv",
+          "sha256": "7601d88eb7d2c805f2fe1d424dbb2078c8ea51f9fbb346584c676e0c698c8172",
+          "size_bytes": 130884
+        }
+      ]
+    },
+    {
+      "path": "bidupm12k-001.zip",
+      "sha256": "b137d643f2fec88a8fafde1fa45c019351df26b0a54152a7f148743a2e094a0e",
+      "size_bytes": 3664725,
+      "members": [
+        {
+          "path": "datasets/bidupm12k/DATASET_README_original.md",
+          "sha256": "8a63c05e228c4913830d6e57c27bdbeee2f2d18b0fde9781ba6a598a29ffff6c",
+          "size_bytes": 2451
+        },
+        {
+          "path": "datasets/bidupm12k/README.md",
+          "sha256": "3282c12c88bdc1807eec36fae878bc74441861ad5aa80efc0bfeb1a77f753154",
+          "size_bytes": 1121
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/all_review_members_vfinal.csv",
+          "sha256": "84b347d63f3583368218c20d7182b96fac19825e1e9a9b1b30fbf2cbf2e9cf9c",
+          "size_bytes": 533975
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/all_review_units_vfinal.csv",
+          "sha256": "354bc87a65bf0d63e2615452a9b4b1c86bf842311a1925ea67d85e368b6e16b3",
+          "size_bytes": 3854698
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/final_adjudication_964.csv",
+          "sha256": "ef6fb65349a6c60fbead07102639863a3d49a45cf1adef6d61d44b49af70e20f",
+          "size_bytes": 789352
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/hard_positive_final_92.csv",
+          "sha256": "3357b7af0e800efce0c9c7ec38a766150df39fcc2c61b3e7b09a49f8aab33804",
+          "size_bytes": 195128
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/hard_positive_two_pass_review_history.csv",
+          "sha256": "b13243a4532d83b401ce79c9eed9788b4a6a1991441f6e56444ea413fd49c5f7",
+          "size_bytes": 161399
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/source_submissions/01_评估Gold_标注员A(1).xlsx",
+          "sha256": "7beb1e197bbe381bfb4d7380a2b36f017d65cbd1001eec7bde24e064bc47b713",
+          "size_bytes": 236244
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/source_submissions/02_评估Gold_标注员B(1).xlsx",
+          "sha256": "e7a1cc384e244aa4cbfe25736cacc1cad61a63d7a5844769e6c7b6ad6b9e9351",
+          "size_bytes": 236312
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/source_submissions/03_训练Hard_标注员A(1).xlsx",
+          "sha256": "93c37cec01ea67e087493dea8b922db8355e4b23cda5c16b41d115d602c348b4",
+          "size_bytes": 85768
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/source_submissions/04_训练Hard_标注员B(1).xlsx",
+          "sha256": "7a461b8dce5cbdf7955c84b953f5983ae80fc334c5a2b4c065ca1b18ef6cc032",
+          "size_bytes": 85796
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/source_submissions/05_训练高置信补全_标注员A(1).xlsx",
+          "sha256": "b8f300685bd944a4afd4631c789845988739094ff5b030e31678730e36dc1e14",
+          "size_bytes": 79893
+        },
+        {
+          "path": "datasets/bidupm12k/annotation/source_submissions/06_训练高置信补全_标注员B(1).xlsx",
+          "sha256": "435c418ada56d9c1d8639ce7dfd0d4ce92ae1269fd4b8e489dfa2a24c60cfab0",
+          "size_bytes": 80043
+        },
+        {
+          "path": "datasets/bidupm12k/canonical/BidUPM_vFinal_数据修复终稿.xlsx",
+          "sha256": "c452ef3228268bf55b8c93b54a96ae3c8151e044f7a7fe88f03f9d96152353c2",
+          "size_bytes": 57425
+        },
+        {
+          "path": "datasets/bidupm12k/canonical/all_pairs_vfinal_12092.csv.gz",
+          "sha256": "23a702aa733e8e81faa70ed6b0d401439d605058acddee636e3e80202ffdb26a",
+          "size_bytes": 866563
+        },
+        {
+          "path": "datasets/bidupm12k/canonical/benchmark_core_12000_corrected.csv.gz",
+          "sha256": "9cbdd7f829a7c7fa24e3492a46de18772b7692785a870dfac93c31e83407003d",
+          "size_bytes": 852230
+        },
+        {
+          "path": "datasets/bidupm12k/evaluation/external_mixed_pairs.csv",
+          "sha256": "dc2b9572f6f08ff3696f8355a6ec3ebd38b568f9c26259a41946e9bd559154b2",
+          "size_bytes": 3624837
+        },
+        {
+          "path": "datasets/bidupm12k/evaluation/locked_pairs.csv",
+          "sha256": "7227fec20fdf0b9c35c453310efa33bad4d3cfa30e4906bec28f0d115ff2a196",
+          "size_bytes": 4017104
+        },
+        {
+          "path": "datasets/bidupm12k/evaluation/no_reference_reclassified_positive_pairs.csv",
+          "sha256": "ddd518a1876d6d346aa7e0a4762f2bc3129f5fd9dbd1fd0ad1b34a3101f8aeb1",
+          "size_bytes": 88723
+        },
+        {
+          "path": "datasets/bidupm12k/evaluation/no_reference_top30_pairs.csv",
+          "sha256": "501aade4d14c42d554a3ff9c39f1a410180bb4ebf25dac81d0ca1df656f3ff67",
+          "size_bytes": 2516852
+        },
+        {
+          "path": "datasets/bidupm12k/evaluation/validation_pairs.csv",
+          "sha256": "799d1d6e7e7b6de7d0e444082a8730063bd42fe8d78a44df8dd04749b745ce55",
+          "size_bytes": 1187259
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/annotation_summary.json",
+          "sha256": "efad183c66e5160b8bcefdcee264edf738c8c1ace4f8abceffdbb1de031d6d99",
+          "size_bytes": 1032
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/core_label_corrections.csv",
+          "sha256": "867e4ebe83a5525fd0f4fdeb48d8fc89d744de09270ab8e74149ff26c2123c73",
+          "size_bytes": 1395
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/dataset_audit.csv",
+          "sha256": "312e50710f41837bc1d3317b4f76dfc1d405424086d990e9d3e37f37fb3bfbc6",
+          "size_bytes": 2623
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/dataset_audit.json",
+          "sha256": "f20623d6531aa227b8288ea2717ba7226101930daf6ec324af1eb8c4be0473c5",
+          "size_bytes": 763
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/dataset_audit.md",
+          "sha256": "8fca0d74d97c5681b86404804fbad63feacbc93a6c616d013eecf5b0d32a7c3c",
+          "size_bytes": 3884
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/no_reference_protocol.json",
+          "sha256": "8c425a5155cc7c8c8a6264cb1e4ed16fc5f507bb29ec5b144e14983236104b8b",
+          "size_bytes": 644
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/original_package_manifest.json",
+          "sha256": "48346de6d68daf77bfe738eadc20edbf8bb87d604f8600162ac2e4ec02020f90",
+          "size_bytes": 5163
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/source_completeness_audit.json",
+          "sha256": "63da11af8ef29ccbd5bcaa3fb1f0b88787450c93d45ed6f424f3836f462faa8d",
+          "size_bytes": 5858
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/source_manifest.csv",
+          "sha256": "f014fd3db3f90bbf4678b847018b5607249ecca41186148509881fc5e672d552",
+          "size_bytes": 26469
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/split_letting_date_counts.csv",
+          "sha256": "df23c6c8ae0a196300d654c6deb0f0008b201eeec9416c174e9d916cc9454493",
+          "size_bytes": 7511
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/split_manifest.csv",
+          "sha256": "b6fc902db82565c44c81959c3f5bbe2e3c214e02d9c05f72d6cc80cdef868d54",
+          "size_bytes": 533
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/split_source_contract_summary.csv",
+          "sha256": "70977cb7674dc81dbb613ba7ea9d0f914c6a8eac4aa74f4681b201bc14a3b13b",
+          "size_bytes": 1730
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/split_source_group_counts.csv",
+          "sha256": "f17b692068000fa071afcfe9534fb08a9a4cb4cdf5625378575b19caca9ad5ea",
+          "size_bytes": 82037
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/split_summary.csv",
+          "sha256": "01b6e43f295164624e73e411a581de7b7af5a936b94b56ee943e71ff2e11ed3f",
+          "size_bytes": 545
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/split_year_category_counts.csv",
+          "sha256": "95c9947dcc93d22e01bf1419d0d285e2aa3fb3b557c4a84f87100ea19ec7f46c",
+          "size_bytes": 11501
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/training_rows_excluded_for_eval_overlap.csv",
+          "sha256": "1fefb8c45d734ab51e2f4f70a6cb29de125b734c3460c9d4baee443aaa09defa",
+          "size_bytes": 639603
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/used_source_manifest_42_files.csv",
+          "sha256": "5ae5d1b994631bf8b8d80d860723efaea2b41426ed51144d847f704257f9a35e",
+          "size_bytes": 28976
+        },
+        {
+          "path": "datasets/bidupm12k/provenance/workbook_verification.ndjson",
+          "sha256": "510dc094bc8be3323566178606837ae16934ebde7a006e2070633dc4dd3f3148",
+          "size_bytes": 16735
+        },
+        {
+          "path": "datasets/bidupm12k/schema.json",
+          "sha256": "085f3b9a3144b131facdc7b5584c6f4549d6c8e039eba04882cbf97eb1719e30",
+          "size_bytes": 2561
+        },
+        {
+          "path": "datasets/bidupm12k/split_counts.json",
+          "sha256": "cc77869c014a6ec9ce88625076e2e56d0e2af755a8ae8c8af3fc3f6395f9ae70",
+          "size_bytes": 1080
+        }
+      ]
+    },
+    {
+      "path": "bidupm12k-002.zip",
+      "sha256": "ed1d4abe75c6cf87f93a02351563391ad2cb61026aa18a32ea4f234aeba14af8",
+      "size_bytes": 614013,
+      "members": [
+        {
+          "path": "datasets/bidupm12k/training/reranker_train_human_labeled_plus_hard.jsonl",
+          "sha256": "521f5c94a2b4a5eabf65897ff2636823e848e51e8b7c3bd2cb7483f16b2a0d64",
+          "size_bytes": 2016692
+        },
+        {
+          "path": "datasets/bidupm12k/training/training_pairs_all_rows.csv",
+          "sha256": "80ced331e862a9c5bdedcdc345ba2c618f552e3db46601c17c74fc806f0ae5ba",
+          "size_bytes": 5405226
+        },
+        {
+          "path": "datasets/bidupm12k/training/training_pairs_semantic_deduplicated.csv",
+          "sha256": "757ab6bdf89937f28370dbc159bf804bd06f1aa6b8614fbf4198c89bdb2d9113",
+          "size_bytes": 3074877
+        }
+      ]
+    },
+    {
+      "path": "catalog-001.zip",
+      "sha256": "d736fcc6d9a8b8b1ee81cfa18b1cbf6421ee88c5d3a3dd43a8c0f4c7b08180b0",
+      "size_bytes": 33098,
+      "members": [
+        {
+          "path": "datasets/README.md",
+          "sha256": "b38b86a23c1eb01ac52bb5054cde3b0edf61e811aefd2ee1bde0cea53fc25d97",
+          "size_bytes": 3910
+        },
+        {
+          "path": "datasets/manifest.json",
+          "sha256": "c8db99d9eca5b829c1035dcaccc88f0e17ad01a4db7104279454cb01a745bca8",
+          "size_bytes": 253659
+        },
+        {
+          "path": "datasets/packaging_qa.json",
+          "sha256": "958b06cb6996dafbfa7e944648062f87ea92f4b3df2687c33654ebdccf71bc8d",
+          "size_bytes": 618
+        }
+      ]
+    },
+    {
+      "path": "challenge600-001.zip",
+      "sha256": "293d07036fd8edc1dc33d3bf23989a9ef7dc9865a0fcfa05cd6ec8d199e353f9",
+      "size_bytes": 883534,
+      "members": [
+        {
+          "path": "datasets/challenge600/README.md",
+          "sha256": "c90e8c85b07d115c392d8c898cf1e8b4d1b86f4ea77e4f65ed1b771f4a94137a",
+          "size_bytes": 824
+        },
+        {
+          "path": "datasets/challenge600/anchor_manifest.json",
+          "sha256": "80ef1cd403806706aed488a924c01c0442e725888f387f8199d5b683952483dc",
+          "size_bytes": 998107
+        },
+        {
+          "path": "datasets/challenge600/annotation/BidUPM_困难样本补充集600_双人盲标.xlsx",
+          "sha256": "823b0d5789036950d017bd3da0a2abb9efe82081d2d3c3ff2eabcafe11794592",
+          "size_bytes": 194962
+        },
+        {
+          "path": "datasets/challenge600/audit_manifest.json",
+          "sha256": "4dc4acef837b2bfaa2019e73ad8ff4204640c96b2da989f0c9a43d62b895d75b",
+          "size_bytes": 5544
+        },
+        {
+          "path": "datasets/challenge600/construction_taxonomy.json",
+          "sha256": "540e0152a0a9459ae5e367067d44e250234ce8366f060009d00f29de21910075",
+          "size_bytes": 164958
+        },
+        {
+          "path": "datasets/challenge600/difficult_supplement_600.csv",
+          "sha256": "2a3d07df93eea30acc8ae5b7fd254519a1a0fb45d6d1b75a53552c345b7ccf08",
+          "size_bytes": 942162
+        },
+        {
+          "path": "datasets/challenge600/difficult_supplement_600.json",
+          "sha256": "27cb0d2a8a7ad3bd17178e47772b000026127b613d1655beb51256796367da5d",
+          "size_bytes": 2235253
+        },
+        {
+          "path": "datasets/challenge600/extra_slot_coverage.json",
+          "sha256": "130ba396c895535c7287f74867625df39041831568f61b2e6feb7094766e31bf",
+          "size_bytes": 104332
+        },
+        {
+          "path": "datasets/challenge600/freeze_manifest.json",
+          "sha256": "38f21b018b547a2c13dc80bf00994721f6d8e768881a465019585383068b06e8",
+          "size_bytes": 1116
+        },
+        {
+          "path": "datasets/challenge600/independent_audit.json",
+          "sha256": "2bb7bff9f8f27fdc0b5be1d890fa3a27e40ca173fd74aa6389a93bdd03234ffd",
+          "size_bytes": 1262
+        },
+        {
+          "path": "datasets/challenge600/label_blind.json",
+          "sha256": "883e7ea6ca974e55328f6e511827ff0acc40e1bbf899ffe26108aa5a7817d411",
+          "size_bytes": 1597180
+        },
+        {
+          "path": "datasets/challenge600/model_inputs_only.csv",
+          "sha256": "0285071f8e2852974e56ffc36fe9af650290b993eacae9c2317e59ffa6e0f41e",
+          "size_bytes": 114691
+        },
+        {
+          "path": "datasets/challenge600/model_inputs_only.jsonl",
+          "sha256": "4d19aed1e3c521707904a314b847e0172c22301b354d1ebdc6fac09cb3ada3bd",
+          "size_bytes": 343729
+        },
+        {
+          "path": "datasets/challenge600/natural_candidate_mining/positive_mining_uncertain_and_rejected.json",
+          "sha256": "e80afafb896e52d29c6067abf908f85c7feca6ed78028f315a4fda63ae3723e7",
+          "size_bytes": 54312
+        },
+        {
+          "path": "datasets/challenge600/natural_candidate_mining/prospective_negative_candidates.json",
+          "sha256": "8614094209e161f0a11fce910466d7951fbb7a818e5d970128766afa4006bf03",
+          "size_bytes": 2197527
+        },
+        {
+          "path": "datasets/challenge600/natural_candidate_mining/prospective_positive_candidates.json",
+          "sha256": "1894d30fb4ee3852e373d23c78fae4f406ffd3ca6f6c198248ce9ead0bb4f982",
+          "size_bytes": 104468
+        },
+        {
+          "path": "datasets/challenge600/natural_candidate_mining/strict_same_code_positive_audit.json",
+          "sha256": "f5d798cdc974372e0b7ec008bc38bde719d49ed7c246327b30ce61aafc35fab8",
+          "size_bytes": 49786
+        },
+        {
+          "path": "datasets/challenge600/quality_checks.json",
+          "sha256": "343e404b5c665bfe3fc414075fb51d9cf9992f7ceb27d78a9dc117aa9fc15e96",
+          "size_bytes": 1981
+        }
+      ]
+    },
+    {
+      "path": "historical-001.zip",
+      "sha256": "f941a0db18e18f65a1bfbf6765abcd2b5f76d5e7dcfcc305da9e8911430cd907",
+      "size_bytes": 2754099,
+      "members": [
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/README.md",
+          "sha256": "327284d8687294cad03c87d35838c9266b1ef0b3e5275649bcee227f0e1c24ce",
+          "size_bytes": 601
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/SOURCE_README.md",
+          "sha256": "74542ab614bb531bb8508be02f063ad9b80f230a847183a9bdc057b566bb428a",
+          "size_bytes": 1503
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/deepseek_gold_metrics.csv",
+          "sha256": "1740244dd80a38dadab39028d80e5e3e0ff89e1e9b651f05b266bf996570cdea",
+          "size_bytes": 649
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/deepseek_gold_predictions.csv",
+          "sha256": "70fed9f4f3497cdb675814bda6cbcd8ad0f25353141d80c3e57eef461c2910f3",
+          "size_bytes": 1693305
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/deepseek_gold_usage.json",
+          "sha256": "70ac0e90632ed174099dcbbdb529697061e82cd7389baedcfbb7752025968144",
+          "size_bytes": 291
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/gold_classification_results.csv",
+          "sha256": "f9a7f6d4a10df83e615a46ca2a2ef1c98709f0361c1674d6065ffb5e8cee6860",
+          "size_bytes": 3402
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/gold_dataset_summary.json",
+          "sha256": "f3eba90a087209338b690b1626d86a86e35ae33c1ac27d648137b3e89f4fe098",
+          "size_bytes": 1608
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/gold_feature_reranker_summary.json",
+          "sha256": "a911d73830e150ef8880efe74123ac4eab99de1f40fee192bc0ea39adb6d0cbb",
+          "size_bytes": 5948
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/derived_results/gold_ranking_results.csv",
+          "sha256": "d970bd39cd75f32e0152d0a90bf92002e82e0f20f41a918c336da09eff4a3513",
+          "size_bytes": 1461
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_candidate_pairs_raw.csv",
+          "sha256": "1e6599bde622e18eb6055fcfe5ab7aa0b69b294d3036321f3426a6e1cb93117c",
+          "size_bytes": 771846
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_eval_annotation_summary.json",
+          "sha256": "0a27fd2df0c1d069623c88794c34981aa96b80783efce847364f4c1d533c7d9f",
+          "size_bytes": 5060
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_eval_pairs.csv",
+          "sha256": "1630e20f6c21618993ce42f51dc35220c5271d166f81cb18ca80f0747b634eee",
+          "size_bytes": 1243922
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_eval_pairs_confirmed.xlsx",
+          "sha256": "d38810da727be37ff963a06c2ab7aa93e0aa05f72aeab5ea8191efa1eb985b68",
+          "size_bytes": 1126448
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_eval_pairs_hard_no_exact.csv",
+          "sha256": "546bfa7748c75c1eb27ffb83a49726ee477c6f881a7acd39473956682240de18",
+          "size_bytes": 1192841
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_eval_queries.csv",
+          "sha256": "e05525dfbaa66872416e98829238ab8994c05a7b4fedd680a569a1c628f9ef5f",
+          "size_bytes": 12406
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_eval_qwen_annotations.jsonl",
+          "sha256": "24d87a62b9bdca295fe1597ca4f8150e04c1dcaa8f5f639148ba55e36a2e920d",
+          "size_bytes": 745920
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_query_summary.csv",
+          "sha256": "0ae47051e114d5d640fd8a24f2322ee4545d049760773b9d3e414f22c2b67dee",
+          "size_bytes": 7202
+        },
+        {
+          "path": "datasets/historical/confirmed_gold_20260511/gold_risk_review_appendix.csv",
+          "sha256": "50f37fe1d53d8789fd3a5cdece1c73933cfd4d0fda54fca2e7cf539b28aa5995",
+          "size_bytes": 128535
+        },
+        {
+          "path": "datasets/historical/gpt55_expanded/README.md",
+          "sha256": "295a2c10bf629eab0982f4d62f97ea76ab14c44c111873b91485d66935febc93",
+          "size_bytes": 590
+        },
+        {
+          "path": "datasets/historical/gpt55_expanded/SOURCE_README.md",
+          "sha256": "256900d75fe49cdd5abfb3ec2d353a54a17b6b2d1cf2bf6c944edac293953b65",
+          "size_bytes": 551
+        },
+        {
+          "path": "datasets/historical/gpt55_expanded/expanded_benchmark_summary.json",
+          "sha256": "3bbbfeabcaaabd0029c027573e4bbc0bf83680635e07d933fbc630edefd76434",
+          "size_bytes": 519
+        },
+        {
+          "path": "datasets/historical/gpt55_expanded/expanded_clean_pairs_gpt55_adjudicated.csv",
+          "sha256": "5671c8f6e8830d6d887d5580ec9c9fad156be1d6fe67e6cbebe96ca32ca73249",
+          "size_bytes": 9746550
+        }
+      ]
+    },
+    {
+      "path": "historical-002.zip",
+      "sha256": "999a62b146e491b953d4c97b304ad2d61bf760b6cd766851670323d2f9cf2fbf",
+      "size_bytes": 4882555,
+      "members": [
+        {
+          "path": "datasets/historical/gpt55_expanded/pending_clean_pairs_gpt55_adjudicated_only.csv",
+          "sha256": "c9d8293f91fe50dfa0708dc7af0017bba7a765e194364ad3e0067618af70ea2e",
+          "size_bytes": 7853076
+        },
+        {
+          "path": "datasets/historical/price_case_v1/ANNOTATION_PROTOCOL.md",
+          "sha256": "ef8495765ae23f957d26f5763c2f42a48a5cab758014586c9774fb67fea1f050",
+          "size_bytes": 850
+        },
+        {
+          "path": "datasets/historical/price_case_v1/DATA_CARD.md",
+          "sha256": "291d07ac14fe101f64f423b9f47b532b631af49c9dbf68ff7b2bd52436f0392c",
+          "size_bytes": 1258
+        },
+        {
+          "path": "datasets/historical/price_case_v1/PAPER_USE_GUIDE.md",
+          "sha256": "7c4e8c2d6045124c7ea17acf8ec486560b7b3a26337cea8cd271af194a35a2f8",
+          "size_bytes": 883
+        },
+        {
+          "path": "datasets/historical/price_case_v1/README.md",
+          "sha256": "2b0df3cc49c3b8743ea38f43ea0cfd223ade140ac540331cc9246b87065dff36",
+          "size_bytes": 589
+        },
+        {
+          "path": "datasets/historical/price_case_v1/SOURCE_README.md",
+          "sha256": "8ad2249d316625e83160dea6b9d694c84c9ab8cc695ddd3ede6022e2d9dd0a8a",
+          "size_bytes": 1066
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_easy_exact_candidate_check.csv",
+          "sha256": "e55adb73cdf32da1e2b757b0d3779779f6e2b46589af020b4d968b76704ca3dc",
+          "size_bytes": 218877
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_hard_action_conflict.csv",
+          "sha256": "1a74880b6ba35dc6bb59a6ed9972d17208158e768fc63b5f52885f205213cc63",
+          "size_bytes": 6242
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_hard_spec_conflict.csv",
+          "sha256": "ce87a6613d551be72a2567505600a062f9c7e5d65ed32f65c6aa44eae5efe05e",
+          "size_bytes": 162469
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_hard_unit_conflict.csv",
+          "sha256": "fc4a6d23aa449702bae520d7722a9b372cbba060bca348431f4f55973baab5b7",
+          "size_bytes": 1380000
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_high_similarity_trap_check.csv",
+          "sha256": "1b2c4e2c30f1cbd8f2c3412f98323c7124a6f1dc5febdbca178dfe85ea460a6c",
+          "size_bytes": 1410562
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_likely_negative_low_score.csv",
+          "sha256": "6c3ed75b797292922048a4d702b625ad19ba15c651ba049cc2820bf245739ead",
+          "size_bytes": 81071
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_prelabeled_review.csv",
+          "sha256": "d6be7679225cca9e709c39a8bc19c07008dd7de34adcd164ed6d595c305a2900",
+          "size_bytes": 31596
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_review_bucket_summary.csv",
+          "sha256": "6c5cd086af29347f86e4d227db8771e8266ab8a7ed610a2ebbf9c4e0a97ceaf5",
+          "size_bytes": 332
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_review_queue_top500.csv",
+          "sha256": "780cbdbbd426aac922d482b46cb4c69759d5d3287b2b5551ad4f91aeb4544618",
+          "size_bytes": 210254
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/painpoint_slices/painpoint_standard_review.csv",
+          "sha256": "d68f9fe4443f35e670d837b664196397ba40aa4cddaa68f2a86cd529c59fec64",
+          "size_bytes": 1502777
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/paper_gold_candidate_pairs_raw_enriched.csv.gz",
+          "sha256": "7e218ac34ac1e41ac38654c498982389210aacb3fa09c04d0adb32ff1a883532",
+          "size_bytes": 830925
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/paper_gold_confirmed_seed_pairs_enriched.csv",
+          "sha256": "2246834ceeace4c8aa1b89da1fbf5a701b9b95b820bb8418ab4b50f0b5e08b26",
+          "size_bytes": 3091253
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/paper_gold_eval_queries.csv",
+          "sha256": "90fd0de841e0a50d2d88ff4f8ce9a5db6d3c8a7df1ae15ba44f41375f672f9fe",
+          "size_bytes": 95695
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/paper_gold_pairs_for_review_enriched.csv.gz",
+          "sha256": "162fb4eba3cd5aeccfb0b3a00863f44497fc949d1f84a8cb5e1a92021f1db5a0",
+          "size_bytes": 1212664
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/paper_gold_review_queue_enriched.csv.gz",
+          "sha256": "ecb1182960e13347488e89d2070ff90a97b6cbd8e8692604c5b0b0e7500b8d5e",
+          "size_bytes": 917863
+        },
+        {
+          "path": "datasets/historical/price_case_v1/annotation/query_positive_status_review.csv",
+          "sha256": "22a1ee690a886d0d370a5b23ca20a5101c9eacce0e42c328837f26ad9b3694d1",
+          "size_bytes": 38293
+        }
+      ]
+    },
+    {
+      "path": "historical-003.zip",
+      "sha256": "f42c4fe2f3d9e0e75f1d24c70e699519734ae1e8e32e1b6d8baa3439adb5c919",
+      "size_bytes": 3093849,
+      "members": [
+        {
+          "path": "datasets/historical/price_case_v1/data/legacy/legacy_labeled_pairs_prelabels_not_gold.csv",
+          "sha256": "85b2aa555cd285559e18bc3a3b1aeacf9aa78f8e76eb743e425f0361cab90fdb",
+          "size_bytes": 6715573
+        },
+        {
+          "path": "datasets/historical/price_case_v1/data/processed/candidate_items.csv",
+          "sha256": "431cc134e7d503c28177ac8fe7407a6c61cc9b8f46d10cc3caa021e858cd9369",
+          "size_bytes": 608893
+        },
+        {
+          "path": "datasets/historical/price_case_v1/data/processed/price_records.csv",
+          "sha256": "ec3edbdb36eaf798d2f2fcdf2f8fd909d91f194e30fa725f7bf0b9659d6b3f02",
+          "size_bytes": 280504
+        },
+        {
+          "path": "datasets/historical/price_case_v1/data/processed/query_items.csv",
+          "sha256": "35bec77110d06ed5dd77e4a473a289c939f83f3c2dc8aa07fe805302faf718b8",
+          "size_bytes": 3050393
+        },
+        {
+          "path": "datasets/historical/price_case_v1/metadata/data_sources.csv",
+          "sha256": "cd9e72681d833c027cadc1d802cef9f14985551d583a79d9897a93eae5124a9a",
+          "size_bytes": 4291
+        },
+        {
+          "path": "datasets/historical/price_case_v1/metadata/source_manifest.csv",
+          "sha256": "2454325131ecb1a98fde60b0afa560b63ad9ebbf339cacaf91b25fe0aad9436e",
+          "size_bytes": 5294
+        },
+        {
+          "path": "datasets/historical/price_case_v1/quality/ANNOTATION_STRUCTURE_VALIDATION_REPORT.md",
+          "sha256": "a7fdec01041d79c182f959f9e11a63f6032388fbcd601a9a8aba8c070f393003",
+          "size_bytes": 2746
+        },
+        {
+          "path": "datasets/historical/price_case_v1/quality/annotation_structure_validation_summary.json",
+          "sha256": "544f75fc413a4ca20d54a65648ecc28a751248867ee7cc1bfb08ff10088ed410",
+          "size_bytes": 1634
+        },
+        {
+          "path": "datasets/historical/price_case_v1/quality/dataset_quality_report.json",
+          "sha256": "2be473ebb061bd7d3c7d5b5b825e9c5a2e4bf41c045999bb0f4e3c5bb3fa4024",
+          "size_bytes": 1676
+        },
+        {
+          "path": "datasets/historical/price_case_v1/schemas/candidate_items.schema.json",
+          "sha256": "8ce96921902ac744068e76b9fc17179b6a9ac7fd87dddc3e6a3c18a10925971a",
+          "size_bytes": 1628
+        },
+        {
+          "path": "datasets/historical/price_case_v1/schemas/paper_gold_pairs_for_review_enriched.schema.json",
+          "sha256": "4990fb19a5d33b7406bea4bc9b59d6a5472d33fa80e78a33af8f24d4c226a84d",
+          "size_bytes": 6582
+        },
+        {
+          "path": "datasets/historical/price_case_v1/schemas/price_records.schema.json",
+          "sha256": "68ee793b81c67480f463dd672685bd3255b85dd39dbf19e139886668d60988d8",
+          "size_bytes": 629
+        },
+        {
+          "path": "datasets/historical/price_case_v1/schemas/query_items.schema.json",
+          "sha256": "053762467d9b5f24c7dedd0b36c8f99b8ca7493932df17ff74a77c82e8a4999e",
+          "size_bytes": 1575
+        },
+        {
+          "path": "datasets/historical/provenance_v2/ANNOTATION_PROTOCOL.md",
+          "sha256": "a9b323386bda098262acb42896e8c91239f9bcd0e521e5410e18c61c098cecdd",
+          "size_bytes": 509
+        },
+        {
+          "path": "datasets/historical/provenance_v2/DATA_CARD.md",
+          "sha256": "9d883cbdb03bc7640f814f30e46040a87fd137ab8a9f659c44ca4d604663ad13",
+          "size_bytes": 695
+        },
+        {
+          "path": "datasets/historical/provenance_v2/PAPER_USE_GUIDE.md",
+          "sha256": "6ba478e05623ff51244d2afdc72a5e110ee99290ba11c92db9b3ad064397e583",
+          "size_bytes": 414
+        },
+        {
+          "path": "datasets/historical/provenance_v2/README.md",
+          "sha256": "b06d78f4e293a8f0c59375539b53f3e0aa20ef604e1bdfcfa6dc99810b2d72fd",
+          "size_bytes": 589
+        },
+        {
+          "path": "datasets/historical/provenance_v2/SOURCE_README.md",
+          "sha256": "466a07063847ae9e4c536bc986eabd37b4765bf73f9f5182acfc9cc61bf6c8dc",
+          "size_bytes": 931
+        },
+        {
+          "path": "datasets/historical/provenance_v2/annotation/confirmed_gold_pairs_allowed.csv",
+          "sha256": "ff63a42a218eba9158607b9212a9184250166bcf57ecd3239e242997b8d4f0b1",
+          "size_bytes": 4027311
+        },
+        {
+          "path": "datasets/historical/provenance_v2/annotation/confirmed_gold_pairs_clean_no_same_form.csv",
+          "sha256": "e99065d6f59e4963a2b5d1837ed878f6053c95cff392e10689ac0fe2c27b1194",
+          "size_bytes": 1814568
+        },
+        {
+          "path": "datasets/historical/provenance_v2/annotation/review_queue_allowed.csv.gz",
+          "sha256": "d5a3c25b7b1dbc08de74415b50da87f90657470283cb191f3cce658bab420013",
+          "size_bytes": 915616
+        }
+      ]
+    },
+    {
+      "path": "historical-004.zip",
+      "sha256": "b1ed5b837a9cb613002147538dda36654c5a43dad9b07e88e805d04b73fb5a80",
+      "size_bytes": 899745,
+      "members": [
+        {
+          "path": "datasets/historical/provenance_v2/annotation/review_queue_clean_no_same_form.csv",
+          "sha256": "d841ede64e010340aafc074522eebaf5e3adc8c0bf9845224a57b44c70007d1c",
+          "size_bytes": 5842857
+        },
+        {
+          "path": "datasets/historical/provenance_v2/data/processed/candidate_items.csv",
+          "sha256": "9ceb067ccbd787ea0ebcde23f7442a79568f35c83edd25c033ea74e79f3835c6",
+          "size_bytes": 1067105
+        },
+        {
+          "path": "datasets/historical/provenance_v2/data/processed/price_records_main_scope.csv",
+          "sha256": "4f11483e6c692d01ae6de3fb845152bfa2ecd975f611a9d3b1fee327b0987c92",
+          "size_bytes": 62
+        },
+        {
+          "path": "datasets/historical/provenance_v2/data/processed/query_items.csv",
+          "sha256": "191a0326469678810b1702fd3914b4bbaba32029833ac3b3f56d02bd71e94a8a",
+          "size_bytes": 4909652
+        },
+        {
+          "path": "datasets/historical/provenance_v2/experiments/non_api_classification_metrics.csv",
+          "sha256": "6f5bd0bc4b36ddbe237d046fc644189470c30d261d0fd91cba7801da97bb4dac",
+          "size_bytes": 2291
+        },
+        {
+          "path": "datasets/historical/provenance_v2/experiments/non_api_ranking_metrics.csv",
+          "sha256": "010ba63801831da15eb3bb62831bfd21f4d4cebe4074876a7b76a4db9bff95c9",
+          "size_bytes": 1632
+        },
+        {
+          "path": "datasets/historical/provenance_v2/metadata/allowed_sources.csv",
+          "sha256": "8581150fd36a294cecb825a5aeece53e5c0b14e5903e598186cab8748d112cb1",
+          "size_bytes": 3943
+        },
+        {
+          "path": "datasets/historical/provenance_v2/metadata/package_manifest.csv",
+          "sha256": "8a26a8c02569287212a212e40eebb48ffeca4ff77b17d6176ad10ad58cf14aef",
+          "size_bytes": 2190
+        },
+        {
+          "path": "datasets/historical/provenance_v2/quality/PROVENANCE_VALIDATION_REPORT.md",
+          "sha256": "f3a10596b2311a6bb55d673ea917725815132bde4c64dfd30e5f1a74351850d3",
+          "size_bytes": 925
+        },
+        {
+          "path": "datasets/historical/provenance_v2/quality/provenance_validation_summary.json",
+          "sha256": "77ef4c3fa92b7ea9f2956a70fd2437439228a2f318acdd90a35eedc970a530de",
+          "size_bytes": 1030
+        },
+        {
+          "path": "datasets/historical/provenance_v2/schemas/candidate_items.schema.json",
+          "sha256": "db4a9f8b0ad4be8cd064570d835a7481d73af3f8eba610a36df51c349b05f0ae",
+          "size_bytes": 2510
+        },
+        {
+          "path": "datasets/historical/provenance_v2/schemas/confirmed_gold_pairs_clean_no_same_form.schema.json",
+          "sha256": "6b69b5e095dc19b7ca44faf60fba7363f14bfe25a492d784c727fbfa7fedd933",
+          "size_bytes": 9373
+        },
+        {
+          "path": "datasets/historical/provenance_v2/schemas/query_items.schema.json",
+          "sha256": "b16e5c2a74983521ee62184eb7e085121bbf0c9e4dac57380c94d4dca6045447",
+          "size_bytes": 2574
+        },
+        {
+          "path": "datasets/historical/provenance_v2/schemas/review_queue_clean_no_same_form.schema.json",
+          "sha256": "7f9f3f968cceabf6c1ffff442022cc29611714e162f98136ece674e7f97d37ba",
+          "size_bytes": 9347
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-001.zip",
+      "sha256": "91935a2c0d1a536945c9f3b18318de35e576f4beb6ee342e2e6ac2c2ca14498d",
+      "size_bytes": 17554513,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/download_manifest.csv",
+          "sha256": "f3f17cc37f2b9868904e0a7026b7fc6fb22030639983ce79034f52f9a2f5fe7d",
+          "size_bytes": 28593
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/download_summary.json",
+          "sha256": "45b1992559ef09bfe4c5058553c9f0c9d40260fa8e032d8e3aebf9b918218845",
+          "size_bytes": 428
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/ncdot_central_page.html",
+          "sha256": "f2efb51c354c5245fa93bcf2cef88437a39aa95298d5c37765302beb21c53ec4",
+          "size_bytes": 2849811
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/Bid_Tabs_Post_240909.xls",
+          "sha256": "c9cb5b950d3859a77f48fba22ab3421e8ab5f68bbce07dd87e219b688a3302f7",
+          "size_bytes": 84480
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/Bid_Tabs_xls.xls",
+          "sha256": "45a662cc8c7c5e47fe89f07df63906c183c5a82d24f958e113e21e0c3378e92a",
+          "size_bytes": 1767424
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/Bid_Tabulations_240820_Post.xls",
+          "sha256": "bf8fdb77d840913461663410aee6a7c5932bb6ea2a8542dffc1818027683174e",
+          "size_bytes": 916480
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240116_XLS_Bid_Tabs.xls",
+          "sha256": "353a35c53daacd67a8ccb798d9b46611f774b18fa6a05cc5b111e185b09c9e8e",
+          "size_bytes": 530432
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240220_XLS_Bid_Tabs.xls",
+          "sha256": "0dfe4117838b48f94fa5b84b494a26225bf73f7c04a6f0a4961b0ab7a37473eb",
+          "size_bytes": 576512
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240319_XLS_Bid_Tabs.xls",
+          "sha256": "8526e24be7739e4aa79fbf259075a6ab271a057e0647ad815fe33289d4970467",
+          "size_bytes": 652288
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240416_XLS_Bid_Tabs.xls",
+          "sha256": "3f8f614221c2f1470e655a856645bbb995145a34f93b0cdc2a3a177e85c7222a",
+          "size_bytes": 1165312
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240507_XLS_Bid_Tabs.xls",
+          "sha256": "52dde49efc146389c3dc05bd9fefbe090725e3bee67093c70ee5d1fa7107d9ee",
+          "size_bytes": 86016
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240528_XLS_Bid_Tabs.xls",
+          "sha256": "ba8b30b9edcca61da4996a4dc75d4022e15f578349b2df589fa2c14d8aaa4cf7",
+          "size_bytes": 1624576
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240618_XLS_Bid_Tabs.xls",
+          "sha256": "f75c949519b973dd57a47faf98a97da0a34fc28cc7d1fb506c06bd7286163395",
+          "size_bytes": 1852416
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240716_XLS_Bid_Tabs.xls",
+          "sha256": "64d030fec13be8993303eb8154f51cae82c9be3948b680e385d49c15f8f3973e",
+          "size_bytes": 1168384
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L240917_XLS_Bid_Tabs.xls",
+          "sha256": "003eb169c43de580274a8d324f3760459d55e79a09de4587d1bcf18f96df2062",
+          "size_bytes": 554496
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L241015_XLS_Bid_Tabs.xls",
+          "sha256": "0f32999edb03e4e4d337b752c1d3ccac72e674574a4686d5c5fb83a094e3aa65",
+          "size_bytes": 1506304
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L241119_XLS_Bid_Tabs.xls",
+          "sha256": "8e9f2832869c4bee7e5756b246eb1d261a9b7f7dd8598d803680a934501bc2f4",
+          "size_bytes": 1666560
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L241217_XLS_Bid_Tabs.xls",
+          "sha256": "81d476a04f6416c4044a74fc963170ccf2769c1f6d18b575d9ef0fd242e728c1",
+          "size_bytes": 1379840
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L241219_XLS_Bid_Tabs.xls",
+          "sha256": "c6508b01865bbda655f8c8fbce0f58c287313be3102743993277c7f31c7e7198",
+          "size_bytes": 100864
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250109_XLS_Bid_Tabs.xls",
+          "sha256": "fddbb4d22ee6996627266ad318976da409eceb7ff8c985018c7071aa75d841a4",
+          "size_bytes": 144896
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250121_XLS_Bid_Tabs.xls",
+          "sha256": "81eabc7861344da2b02c6d6d02b278f4ca0c820777ffcdba0544838c3f6bcbd8",
+          "size_bytes": 1449472
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250214_XLS_Bid_Tabs.xls",
+          "sha256": "a6c4ccf8e43c36389633ad2c2eceb1038842e555869060b77e94def7f4d8e19b",
+          "size_bytes": 144896
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-002.zip",
+      "sha256": "6f58faddc0535808c363ede6eb4a24df564ac7a79a08f8198b6fec2beb538854",
+      "size_bytes": 20295969,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250218_XLS_Bid_Tabs.xls",
+          "sha256": "360e59bef9cc98f0168510a4f4f495889828eeebd701f9152f299d70a05c7d30",
+          "size_bytes": 1665024
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250220_XLS_Bid_Tabs.xls",
+          "sha256": "21b90421cc39e700653d226ff5e8fada2519d5aa1e3021e0b42b2d3f88d33daf",
+          "size_bytes": 92160
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250318_XLS_Bid_Tabs.xls",
+          "sha256": "714532a2e9fc127b1f6da7d84e96bfa1578bc2f9dc49718f82d7dd13962c689c",
+          "size_bytes": 1316352
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250415_XLS_Bid_Tabs.xls",
+          "sha256": "8ff7104113e4a3eb54f27794ef50069c096805821212cbac95182f23a19c305e",
+          "size_bytes": 772608
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250520_XLS_Bid_Tabs.xls",
+          "sha256": "8405e853530befcb9d675aec37d6945b4164d6735c4d58eb7229b28126832b67",
+          "size_bytes": 967168
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250611_XLS_Bid_Tabs.xls",
+          "sha256": "2390f19584a09db18744d66f897f768985ac9f57200c11df700a944a40283adb",
+          "size_bytes": 70144
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250617_XLS_Bid_Tabs.xls",
+          "sha256": "f8e7387968f78d622ef3720efc8f5e6501952cd73d614dd721ca6c1bbc873602",
+          "size_bytes": 2048000
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250624_XLS_Bid_Tabs.xls",
+          "sha256": "120773ae9cd9f7b81a554c973fdb87029c8ad5975cd120eee668c0366e5db4e9",
+          "size_bytes": 93696
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250625_XLS_Bid_Tabs.xls",
+          "sha256": "4dd2ff908dbedeba5b65a9475099ab7d4218c68280ecefb03a73e7512a334e7c",
+          "size_bytes": 149504
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250715_XLS_Bid_Tabs.xls",
+          "sha256": "6db1b7bd8dca579ce4ca04f54f8150cffcc1b1da36bf4c2f3f0fbc90775ea71a",
+          "size_bytes": 1510400
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L250916_XLS_Bid_Tabs.xls",
+          "sha256": "c7e20cacba033e0e85da8dd58d45ccac660d8236616737655b1a77a36d720124",
+          "size_bytes": 1047552
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L251021_XLS_Bid_Tabs.xls",
+          "sha256": "8532e9dc6e6a7fb54c837d94f3cc571fde0b7b60c69cfcc46803db0c64c94c72",
+          "size_bytes": 1978880
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L251118_XLS_Bid_Tabs.xls",
+          "sha256": "7a93572ce88be324131b68cef3309e2b75e13b0785780730577d87db056ed82d",
+          "size_bytes": 2256896
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L251216_XLS_Bid_Tabs.xls",
+          "sha256": "ca2444d80090beb65c2d9be95aa280b087c4f264c2bfcaea20e2ad6066c098ee",
+          "size_bytes": 702464
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L260120_XLS_Bid_Tabs.xls",
+          "sha256": "1f77e55f6ba3b9eb97b41bd018c06a6bea939ae70fce3d05a85b20354a807f27",
+          "size_bytes": 1108992
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L260122_XLS_Bid_Tabs.xls",
+          "sha256": "18dccb90ea0f81f655149d4acc6af3ffdac24c2b1f16f6340bd5bcf65adeca26",
+          "size_bytes": 108544
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L260217_XLS_Bid_Tabs.xls",
+          "sha256": "38edc2fc8fc556de1834e2b39e8910314bd1e6418cb1330d5a476e075ce8c09d",
+          "size_bytes": 2070016
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L260317_XLS_Bid_Tabs.xls",
+          "sha256": "b795f1c8e7893f9b073d57ce5c991ec781a0d7611c8ebf7044f9099ca733fbac",
+          "size_bytes": 1056768
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L260324_XLS_Bid_Tabs.xls",
+          "sha256": "541a32b753d0cca8909cb3322eaecf9b13b9fbfd85d7fd923cce1b1244db2a5e",
+          "size_bytes": 222720
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Downloads/raw/L260421_XLS_Bid_Tabs.xls",
+          "sha256": "fb8d4078a1cd5e86fb463eba7abe2e1656ae511d94e39116167e2bf21780af15",
+          "size_bytes": 1052672
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/README.md",
+          "sha256": "75891adf82d162ca586d5bb2ad08baeeade56ad85e24f3a12cecda095d96a59b",
+          "size_bytes": 475
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/parse_manifest.csv",
+          "sha256": "5015c5520788e21972c13946a4f42080a2d027f5afecbd40b701bbe708a22d04",
+          "size_bytes": 3904
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-003.zip",
+      "sha256": "8d35676f4cf76a6b424fd6466dc8159e6691439a21969478a9e4309b42c71965",
+      "size_bytes": 11921044,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/raw_ncdot_bid_items.csv.gz",
+          "sha256": "cce46389227fa1ccd0268e8940a1f2e8a9ca5ca429fc3b0b429eac41cf62f414",
+          "size_bytes": 2546155
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/raw_ncdot_price_records.csv.gz",
+          "sha256": "9ba659548070b6f3d0dd06e94904991ed89fd3cf5b0ea918d97824f6d1d52a3b",
+          "size_bytes": 3220294
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/raw_parse_summary.json",
+          "sha256": "15fdbb0125424ab1c37e9adc0c0a521277ec48dc0019b0adbd6725e9a5d8b864",
+          "size_bytes": 559
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/raw_repeated_exact_keys_cross_file.csv",
+          "sha256": "8b02174cbf54e98b0a0696e694e8c01aa512d5971c79ed9c76ac2e23b05cbf35",
+          "size_bytes": 59305
+        },
+        {
+          "path": "datasets/ncdot_raw/NCDOT_Raw_Parsed/raw_rule_exact_positive_pairs_capped_5_per_query.csv.gz",
+          "sha256": "985a171f2ad9224dab7f2504662017623c04d8fce1cbc7f27f2965106d5a9e32",
+          "size_bytes": 6134915
+        },
+        {
+          "path": "datasets/ncdot_raw/README.md",
+          "sha256": "1743922f1db1da878817cba4b3d8c428acd49a2709facbd04e2942ed91494608",
+          "size_bytes": 796
+        },
+        {
+          "path": "datasets/ncdot_raw/SOURCE_PROVENANCE_RECHECK_REPORT_来源复查.md",
+          "sha256": "abdd596e1245fbb5f7a866dcc6b624fbaf0cab46cd0fc142bd0990ad647b795b",
+          "size_bytes": 2672
+        },
+        {
+          "path": "datasets/ncdot_raw/full_pairs/manifest.json",
+          "sha256": "03c660a0466a8aa6f227adf395a1ab9f81eecad0b46af41bd2f59bfdb1d3bf95",
+          "size_bytes": 7350
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-004.zip",
+      "sha256": "9341409b08fc415ea0a2473d977feabd36bed61bd6eea28a844f33acc785d375",
+      "size_bytes": 18898037,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00001.csv.gz",
+          "sha256": "c788587311d67c701e31fab58145495e4d559684b653fa43c88b430927c139be",
+          "size_bytes": 18897845
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-005.zip",
+      "sha256": "8bd4e64342865b4a346b2a6ea034a559467ee8ea34b424392d844b53873230fa",
+      "size_bytes": 18910281,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00002.csv.gz",
+          "sha256": "5e09584ded9242015c68fd0dc2fc337927957c4874676723499f785837729bd3",
+          "size_bytes": 18910089
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-006.zip",
+      "sha256": "07207e30b89687fc807257a503efecbd307f69733f32ac65fe2b7924c19cb560",
+      "size_bytes": 18897073,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00003.csv.gz",
+          "sha256": "a2d8a16a7c5aae2106de2318ee18cdd5e166441058e269c99ffb41a9b2b464cd",
+          "size_bytes": 18896881
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-007.zip",
+      "sha256": "aec3ca67b69b02b5b2cc41c9c3e3a691cbe2882d436f9480178aec65d5fbd099",
+      "size_bytes": 18894417,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00004.csv.gz",
+          "sha256": "fffdcc32ca004b2945b7667923588c542accba5dcfbfdb2ec85894beb125b587",
+          "size_bytes": 18894225
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-008.zip",
+      "sha256": "ac6f35e931bee02f4b88021c41803ff7c9d9a78060ffdf434efd599497a5d167",
+      "size_bytes": 18912760,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00005.csv.gz",
+          "sha256": "ca5989512664c1da26df43ec6b11843649ec858a6e2fcbaa7bb6bac4075684c8",
+          "size_bytes": 18912568
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-009.zip",
+      "sha256": "df515c2a36e6708b512764d1adb8ec23ae57e4636ad14e8fb850364fe6352138",
+      "size_bytes": 18904278,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00006.csv.gz",
+          "sha256": "f14a8b56aa221f26f19d972306361f00d18db65cbbb0f71c2e7aa3ee1695e25a",
+          "size_bytes": 18904086
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-010.zip",
+      "sha256": "f9a29e2dfef6aad83ac69e8aad331e4770aa58863816a9028aba672d7cfed42e",
+      "size_bytes": 18903744,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00007.csv.gz",
+          "sha256": "329cdf1408f55b769baf18752e96d874712868635866a2115611f0f9668f5e54",
+          "size_bytes": 18903552
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-011.zip",
+      "sha256": "439022cbf8e96bf94d12ef86f67ae2d8ea17887318563d354662971bb6b96029",
+      "size_bytes": 18898463,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00008.csv.gz",
+          "sha256": "2f7ba1bba489cf0531444eda67d031bd2d15b0e9af6ece05785e34885974a2f4",
+          "size_bytes": 18898271
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-012.zip",
+      "sha256": "0b3f026b819a163e71240c0962f0dbf0ae33b4ecf02a25b51f45d6c1319bf25f",
+      "size_bytes": 18890937,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00009.csv.gz",
+          "sha256": "c8c368dc6114639dc11f7593a1c6f23efc5d426a687c932dc4b819af61cd34f4",
+          "size_bytes": 18890745
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-013.zip",
+      "sha256": "7eae34ae6054fb3611ebe3a9455b31997558112e3a1eb5ad2100b299491ed50b",
+      "size_bytes": 18897602,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00010.csv.gz",
+          "sha256": "d8665773ea2fdd06cc9638c61c717074d2a35d2db30ec1c13724d12ce9026ef0",
+          "size_bytes": 18897410
+        }
+      ]
+    },
+    {
+      "path": "ncdot_raw-014.zip",
+      "sha256": "e2aaa96f3f38d4ee16583ec7a628523f00052529d9ad1999c9990ea9685452b4",
+      "size_bytes": 12660908,
+      "members": [
+        {
+          "path": "datasets/ncdot_raw/full_pairs/part-00011.csv.gz",
+          "sha256": "40515cfa2b58c70ffe5b1b46f38617e178e8ac1439ab1ae8d1c15e79024b095d",
+          "size_bytes": 12656371
+        },
+        {
+          "path": "datasets/ncdot_raw/raw_file_source_recheck.csv",
+          "sha256": "3e8b454259b962cb2aa638c806cef3129e38affee7329db13cef173ef2449fa3",
+          "size_bytes": 35419
+        }
+      ]
+    },
+    {
+      "path": "source_materials-001.zip",
+      "sha256": "be8dbc472bcdb3eafe0402018f912715754fb350d815203c41a096c13722d8fe",
+      "size_bytes": 12809895,
+      "members": [
+        {
+          "path": "datasets/source_materials/README.md",
+          "sha256": "bc3f1a4746dbef32d35fe3cbe0a1ab99d22e6cb2d84a4510b3a8b3994c1465ab",
+          "size_bytes": 871
+        },
+        {
+          "path": "datasets/source_materials/all_bid_items_raw_normalized.csv",
+          "sha256": "1fac2401a47f4f471db80e8cfb9b3bd622b29fd89ce388d49127a5542c02476a",
+          "size_bytes": 3906897
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF002_NCDOT_L260324_Bid_Tabs.xls",
+          "sha256": "cb038d22a590c490e1cbc1e592d6482d79e8c3ea180e91604c72166f2df7cb18",
+          "size_bytes": 222720
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF003_NCDOT_L260317_Bid_Tabs.xls",
+          "sha256": "c9b94bd52c88561e261cf0b9e3dfa8ace1928d25eb539ae3f5cb6ccad1524220",
+          "size_bytes": 1056768
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF004_NCDOT_L260217_Bid_Tabs.xls",
+          "sha256": "9c5f49dd71f20437f80c87da973e797f70eadabd28875206544b0e1de58b94a6",
+          "size_bytes": 2070016
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF005_NCDOT_L260122_Bid_Tabs.xls",
+          "sha256": "a1f5ab0104b0a91d08158a85503245172633627164c392ba19325a96be3f960b",
+          "size_bytes": 108544
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF006_NCDOT_L260120_Bid_Tabs.xls",
+          "sha256": "a98bbdf6ce010282042d8581f5aed146d3f7f07d60997bfb7ad8438bd566a9e3",
+          "size_bytes": 1108992
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF007_NCDOT_L251216_Bid_Tabs.xls",
+          "sha256": "661bd54b9b9a9a45e75fa43ecf13c7a218a8377058b49a17d736092c6af0640a",
+          "size_bytes": 702464
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF008_NCDOT_L251118_Bid_Tabs.xls",
+          "sha256": "4e0365e9e19a6785cfd7062c85e2b8017771f4340ab4217a6b637e8e807a7229",
+          "size_bytes": 2256896
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF009_NCDOT_L251021_Bid_Tabs.xls",
+          "sha256": "9f16a6b9b5c5a33343253112f58d3682faed2d71097cb9317a800746376d429f",
+          "size_bytes": 1978880
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF010_NCDOT_L250916_Bid_Tabs.xls",
+          "sha256": "a794901bdbf8587ee19303d987793404bddbdcebf3c626c3dde827de13258cd3",
+          "size_bytes": 1047552
+        },
+        {
+          "path": "datasets/source_materials/ncdot_original_bid_tabs/BF011_NCDOT_20250819_Bid_Tabs.xls",
+          "sha256": "3d5b0a9db40b4c3dff1dde4cbe9c7c13dc23d3c9b142a9375dacefd6fab7c400",
+          "size_bytes": 1767424
+        },
+        {
+          "path": "datasets/source_materials/query_selections/external_queries.csv",
+          "sha256": "479d60ade6d926335ea58f82d8e80fb336e34752e780a552b6352d704695614e",
+          "size_bytes": 33749
+        },
+        {
+          "path": "datasets/source_materials/query_selections/locked_queries.csv",
+          "sha256": "d30361a1382b63d10c8fda4e13e4e4c0718f3d3acee4eb32c9b94c21612088c3",
+          "size_bytes": 36727
+        },
+        {
+          "path": "datasets/source_materials/query_selections/no_reference_queries.csv",
+          "sha256": "7e35f3dc50ddca5907c5b6aa3694355a577729a02e0d477e359ba8b7b5735078",
+          "size_bytes": 15825
+        },
+        {
+          "path": "datasets/source_materials/query_selections/train_hard_queries.csv",
+          "sha256": "afb7bd3c1e8391c41fb8b7b2dcf6aa5786a5166289ada49f6493fb38a428063f",
+          "size_bytes": 18345
+        },
+        {
+          "path": "datasets/source_materials/query_selections/train_standard_queries.csv",
+          "sha256": "93d228efc4d83be1c4d1b7693102fc1a92b0c93eb39740dc78528f15fa45aa29",
+          "size_bytes": 34773
+        },
+        {
+          "path": "datasets/source_materials/query_selections/validation_queries.csv",
+          "sha256": "c22bdd23d82288393c5a6d46cd4e5bee4386ace2f1f9abac3f8cdd13099ca8e4",
+          "size_bytes": 10840
+        }
+      ]
+    },
+    {
+      "path": "source_materials-002.zip",
+      "sha256": "c2360a58f526faca8d2fa9e08d080610104a1a6092ee0327865781957c31b0bd",
+      "size_bytes": 1285838,
+      "members": [
+        {
+          "path": "datasets/source_materials/retrieval_top100/external_top100_full_corpus.csv",
+          "sha256": "6bec22a8aba09d4ed5e8cc3fff2819493b41d7fd196051b2364eb7ef2d82f65b",
+          "size_bytes": 6140084
+        },
+        {
+          "path": "datasets/source_materials/retrieval_top100/locked_top100_full_corpus.csv",
+          "sha256": "c2de600968a249bd5f18b79375a4f272ec7c996f7d3d0ae1efa4fd74ec61b554",
+          "size_bytes": 6741140
+        },
+        {
+          "path": "datasets/source_materials/retrieval_top100/no_reference_top100_full_corpus.csv",
+          "sha256": "374735843db74e95dd86f854e66cbdc10b52bf8fbe5e07e429307e9b369444a4",
+          "size_bytes": 2723247
+        },
+        {
+          "path": "datasets/source_materials/retrieval_top100/train_hard_top100_full_corpus.csv",
+          "sha256": "b8ffbebaf9eb388febaa24a6e96c2a5dbab63573ed5308b74b6bf067f093849b",
+          "size_bytes": 3290489
+        }
+      ]
+    },
+    {
+      "path": "source_materials-003.zip",
+      "sha256": "e75ce6dfab345dbe831e7f2aedc9be8781717729c0da313ffe5ce9b932aa711f",
+      "size_bytes": 597698,
+      "members": [
+        {
+          "path": "datasets/source_materials/retrieval_top100/train_standard_top100_full_corpus.csv",
+          "sha256": "913aa5d4fb4161b1e34c2571a2a3d9fa63e86a7e998e4be3e66b6345f64b5881",
+          "size_bytes": 6447006
+        },
+        {
+          "path": "datasets/source_materials/retrieval_top100/validation_top100_full_corpus.csv",
+          "sha256": "183c6794699dbb0a37dfa4640d387320f008cad735c03758bc92a2da305203bc",
+          "size_bytes": 1971001
+        },
+        {
+          "path": "datasets/source_materials/user_supplied_bid_form.xlsx",
+          "sha256": "8f3342feb08a645678bf233197cc24d82e258ad873d2085d523cdf0d1f940d38",
+          "size_bytes": 20290
+        }
+      ]
+    }
+  ],
+  "notes": "Each independent ZIP contains repository-relative datasets/ paths. Restore archives with scripts/materialize_datasets.py; originals larger than browser limits are gzip-compressed or losslessly sharded."
+}
