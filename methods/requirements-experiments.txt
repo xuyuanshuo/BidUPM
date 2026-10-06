@@ -1,0 +1,24 @@
+# Recorded neural runtime: NVIDIA RTX 4090, CUDA 12.8, BF16.
+# PyTorch CUDA wheel index and platform selection must match your own hardware.
+torch==2.8.0
+transformers==4.57.6
+peft==0.20.0
+# These dependencies are required by archived scripts; exact versions were not
+# consistently recorded, so this file does not invent a complete locked runtime.
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+threadpoolctl
+huggingface_hub
+openpyxl
+matplotlib
+Pillow
+reportlab
+requests
+# Historical local embedding baseline recorded this version.
+sentence-transformers==3.4.1
+# Token-audit dependencies are intentionally separated into
+# requirements-token-audit.txt; its tokenizers range is a separate workflow.
+# methods/recompute.py itself uses only the Python standard library.

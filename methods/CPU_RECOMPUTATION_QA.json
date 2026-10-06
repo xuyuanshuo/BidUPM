@@ -1,0 +1,48 @@
+{
+  "schema": "bidupm-portable-cpu-recomputation-qa-v1",
+  "all_passed": true,
+  "entry_point": "methods/recompute.py",
+  "entry_point_sha256": "846fd2b57b56010298c1731042799543a56933abcb9aa44bc5d157b810ae18fa",
+  "dataset_logical_path": "datasets/bidupm12k/canonical/all_pairs_vfinal_12092.csv.gz",
+  "dataset_sha256": "23a702aa733e8e81faa70ed6b0d401439d605058acddee636e3e80202ffdb26a",
+  "frozen_scores_logical_source": "output/remote_experiments_20260923/runs/bge_hard_seed_20260904/pair_scores.csv",
+  "frozen_score_sha256": "b912526e77136ab7776ae1f89ee84473840fc5a4e888be3bb93ff0f3901fbc04",
+  "threshold": 9.1875,
+  "actual_data_checks": {
+    "exact_locked": {
+      "tp": 260,
+      "fp": 0,
+      "fn": 23,
+      "tn": 2717,
+      "precision": 1.0,
+      "recall": 0.9187279151943463,
+      "f1": 0.9576427255985267
+    },
+    "exact_WSDOT": {
+      "tp": 145,
+      "fp": 0,
+      "fn": 3,
+      "tn": 2252,
+      "precision": 1.0,
+      "recall": 0.9797297297297297,
+      "f1": 0.9897610921501706
+    },
+    "BGE_seed20260904_locked": {
+      "tp": 274,
+      "fp": 1,
+      "fn": 9,
+      "tn": 2716,
+      "precision": 0.9963636363636363,
+      "recall": 0.9681978798586572,
+      "f1": 0.982078853046595
+    }
+  },
+  "edge_checks": [
+    "Undefined all-negative precision and recall stay null",
+    "Unknown reference labels excluded and counted",
+    "Unscored known-reference predictions excluded and counted",
+    "Duplicate pair/condition rejected",
+    "Declared condition columns automatically separate metric groups"
+  ],
+  "new_GPU_or_API_calls": false
+}

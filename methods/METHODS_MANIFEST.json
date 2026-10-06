@@ -1,0 +1,995 @@
+{
+  "schema": "bidupm-methods-release-v1",
+  "release_date": "2026-10-05",
+  "source_code_archive": "methods/source_code_and_frozen_plans.zip",
+  "source_code_files": 226,
+  "experiment_families": [
+    {
+      "experiment_id": "original_models_and_classical_baselines",
+      "status": "completed",
+      "archives": [
+        "experiments/original_models_and_classical_baselines__part01.zip"
+      ],
+      "included_files": 303,
+      "included_source_bytes": 24793597,
+      "included_packaged_bytes": 24754227,
+      "redacted_files": 29
+    },
+    {
+      "experiment_id": "final_system_vs_current_gpt_rule_fullbge",
+      "status": "completed",
+      "archives": [
+        "experiments/final_system_vs_current_gpt_rule_fullbge__part01.zip"
+      ],
+      "included_files": 17,
+      "included_source_bytes": 3760741,
+      "included_packaged_bytes": 3760741,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "all115_heldout_router_configurations",
+      "status": "completed",
+      "archives": [
+        "experiments/all115_heldout_router_configurations__part01.zip"
+      ],
+      "included_files": 10,
+      "included_source_bytes": 488010,
+      "included_packaged_bytes": 488010,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "validation_search_cv",
+      "status": "completed",
+      "archives": [
+        "experiments/validation_search_cv__part01.zip"
+      ],
+      "included_files": 12,
+      "included_source_bytes": 127832,
+      "included_packaged_bytes": 127832,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "old_top3_earlystop_system",
+      "status": "completed",
+      "archives": [
+        "experiments/old_top3_earlystop_system__part01.zip",
+        "experiments/old_top3_earlystop_system__part02.zip"
+      ],
+      "included_files": 17,
+      "included_source_bytes": 6988546,
+      "included_packaged_bytes": 6988410,
+      "redacted_files": 2
+    },
+    {
+      "experiment_id": "policy_exploration_caps",
+      "status": "completed",
+      "archives": [
+        "experiments/policy_exploration_caps__part01.zip"
+      ],
+      "included_files": 20,
+      "included_source_bytes": 2970333,
+      "included_packaged_bytes": 2970231,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "original_gpt6_blind_and_posthoc_overlap",
+      "status": "completed",
+      "archives": [
+        "experiments/original_gpt6_blind_and_posthoc_overlap__part01.zip"
+      ],
+      "included_files": 43,
+      "included_source_bytes": 19380468,
+      "included_packaged_bytes": 19379950,
+      "redacted_files": 3
+    },
+    {
+      "experiment_id": "selective_gpt6_verifier",
+      "status": "completed",
+      "archives": [
+        "experiments/selective_gpt6_verifier__part01.zip"
+      ],
+      "included_files": 17,
+      "included_source_bytes": 929954,
+      "included_packaged_bytes": 929954,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "expanded_verifier_and_components",
+      "status": "completed",
+      "archives": [
+        "experiments/expanded_verifier_and_components__part01.zip"
+      ],
+      "included_files": 42,
+      "included_source_bytes": 3990198,
+      "included_packaged_bytes": 3987920,
+      "redacted_files": 2
+    },
+    {
+      "experiment_id": "full_pair_route_real_gpu",
+      "status": "completed",
+      "archives": [
+        "experiments/full_pair_route_real_gpu__part01.zip"
+      ],
+      "included_files": 18,
+      "included_source_bytes": 5677729,
+      "included_packaged_bytes": 5677389,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "local_verifier_system_real_gpu",
+      "status": "completed",
+      "archives": [
+        "experiments/local_verifier_system_real_gpu__part01.zip"
+      ],
+      "included_files": 15,
+      "included_source_bytes": 7494965,
+      "included_packaged_bytes": 7494353,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "exact_pair_route_before_cap_ranking",
+      "status": "completed",
+      "archives": [
+        "experiments/exact_pair_route_before_cap_ranking__part01.zip"
+      ],
+      "included_files": 20,
+      "included_source_bytes": 1808537,
+      "included_packaged_bytes": 1808147,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "cached_fullpool_gpt_replay",
+      "status": "completed",
+      "archives": [
+        "experiments/cached_fullpool_gpt_replay__part01.zip"
+      ],
+      "included_files": 13,
+      "included_source_bytes": 587795,
+      "included_packaged_bytes": 587523,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "hard_sample_failure_and_oracles",
+      "status": "completed",
+      "archives": [
+        "experiments/hard_sample_failure_and_oracles__part01.zip"
+      ],
+      "included_files": 13,
+      "included_source_bytes": 273486,
+      "included_packaged_bytes": 272976,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "preprocessing_rule_ablations",
+      "status": "completed",
+      "archives": [
+        "experiments/preprocessing_rule_ablations__part01.zip"
+      ],
+      "included_files": 20,
+      "included_source_bytes": 3194932,
+      "included_packaged_bytes": 3194852,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "input_preprocessing_frozen_BGE_ablations",
+      "status": "completed",
+      "archives": [
+        "experiments/input_preprocessing_frozen_BGE_ablations__part01.zip"
+      ],
+      "included_files": 13,
+      "included_source_bytes": 8024829,
+      "included_packaged_bytes": 8024745,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "raw_alberta_representation",
+      "status": "completed",
+      "archives": [
+        "experiments/raw_alberta_representation__part01.zip"
+      ],
+      "included_files": 62,
+      "included_source_bytes": 63621597,
+      "included_packaged_bytes": 63460885,
+      "redacted_files": 23
+    },
+    {
+      "experiment_id": "runtime_batch_fairness",
+      "status": "completed",
+      "archives": [
+        "experiments/runtime_batch_fairness__part01.zip"
+      ],
+      "included_files": 19,
+      "included_source_bytes": 14160760,
+      "included_packaged_bytes": 14160508,
+      "redacted_files": 3
+    },
+    {
+      "experiment_id": "smallsets_models_rules_complete",
+      "status": "completed",
+      "archives": [
+        "experiments/smallsets_models_rules_complete__part01.zip"
+      ],
+      "included_files": 26,
+      "included_source_bytes": 479977,
+      "included_packaged_bytes": 479735,
+      "redacted_files": 2
+    },
+    {
+      "experiment_id": "supplement_verifier_real_gpu",
+      "status": "completed",
+      "archives": [
+        "experiments/supplement_verifier_real_gpu__part01.zip"
+      ],
+      "included_files": 17,
+      "included_source_bytes": 29708599,
+      "included_packaged_bytes": 29708531,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "unit_strict_gate_real_gpu",
+      "status": "completed",
+      "archives": [
+        "experiments/unit_strict_gate_real_gpu__part01.zip"
+      ],
+      "included_files": 18,
+      "included_source_bytes": 5743585,
+      "included_packaged_bytes": 5743245,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "qwen06_genuine_route",
+      "status": "completed",
+      "archives": [
+        "experiments/qwen06_genuine_route__part01.zip",
+        "experiments/qwen06_genuine_route__part02.zip",
+        "experiments/qwen06_genuine_route__part03.zip",
+        "experiments/qwen06_genuine_route__part04.zip"
+      ],
+      "included_files": 22,
+      "included_source_bytes": 84345187,
+      "included_packaged_bytes": 84345187,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "last_token_logits_AB",
+      "status": "completed",
+      "archives": [
+        "experiments/last_token_logits_AB__part01.zip"
+      ],
+      "included_files": 10,
+      "included_source_bytes": 1705429,
+      "included_packaged_bytes": 1705415,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "qwen4_alberta_original_threshold_actual",
+      "status": "completed",
+      "archives": [
+        "experiments/qwen4_alberta_original_threshold_actual__part01.zip"
+      ],
+      "included_files": 29,
+      "included_source_bytes": 23068743,
+      "included_packaged_bytes": 23068701,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "generic_dimension_and_size_frozen_actual",
+      "status": "completed",
+      "archives": [
+        "experiments/generic_dimension_and_size_frozen_actual__part01.zip",
+        "experiments/generic_dimension_and_size_frozen_actual__part02.zip",
+        "experiments/generic_dimension_and_size_frozen_actual__part03.zip",
+        "experiments/generic_dimension_and_size_frozen_actual__part04.zip"
+      ],
+      "included_files": 29,
+      "included_source_bytes": 88733567,
+      "included_packaged_bytes": 88731697,
+      "redacted_files": 3
+    },
+    {
+      "experiment_id": "fixed_dimension_output_filters_600",
+      "status": "completed",
+      "archives": [
+        "experiments/fixed_dimension_output_filters_600__part01.zip"
+      ],
+      "included_files": 7,
+      "included_source_bytes": 114433,
+      "included_packaged_bytes": 110863,
+      "redacted_files": 3
+    },
+    {
+      "experiment_id": "engineering_constraints_frozen_challenge",
+      "status": "completed",
+      "archives": [
+        "experiments/engineering_constraints_frozen_challenge__part01.zip"
+      ],
+      "included_files": 17,
+      "included_source_bytes": 1503860,
+      "included_packaged_bytes": 1503367,
+      "redacted_files": 6
+    },
+    {
+      "experiment_id": "training_derived_abbreviation_rules",
+      "status": "completed",
+      "archives": [
+        "experiments/training_derived_abbreviation_rules__part01.zip"
+      ],
+      "included_files": 9,
+      "included_source_bytes": 4478260,
+      "included_packaged_bytes": 4478260,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "cheap_feature_models_45",
+      "status": "completed_training_validation_exploration_unfavorable_results_retained",
+      "archives": [
+        "experiments/cheap_feature_models_45__part01.zip"
+      ],
+      "included_files": 8,
+      "included_source_bytes": 4378890,
+      "included_packaged_bytes": 4378890,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "semantic_frozen_BGE_heads_12",
+      "status": "completed_unfavorable_results_retained",
+      "archives": [
+        "experiments/semantic_frozen_BGE_heads_12__part01.zip"
+      ],
+      "included_files": 11,
+      "included_source_bytes": 12195953,
+      "included_packaged_bytes": 12195939,
+      "redacted_files": 1
+    },
+    {
+      "experiment_id": "new_BGE_LoRA_three_schemes",
+      "status": "completed",
+      "archives": [
+        "experiments/new_BGE_LoRA_three_schemes__part01.zip"
+      ],
+      "included_files": 33,
+      "included_source_bytes": 32291025,
+      "included_packaged_bytes": 32288487,
+      "redacted_files": 9
+    },
+    {
+      "experiment_id": "new_LoRA_fixed_router_CPU_replay",
+      "status": "completed",
+      "archives": [
+        "experiments/new_LoRA_fixed_router_CPU_replay__part01.zip"
+      ],
+      "included_files": 4,
+      "included_source_bytes": 108486,
+      "included_packaged_bytes": 108486,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "canonical_exact_serialized_cache",
+      "status": "completed",
+      "archives": [
+        "experiments/canonical_exact_serialized_cache__part01.zip",
+        "experiments/canonical_exact_serialized_cache__part02.zip",
+        "experiments/canonical_exact_serialized_cache__part03.zip",
+        "experiments/canonical_exact_serialized_cache__part04.zip",
+        "experiments/canonical_exact_serialized_cache__part05.zip",
+        "experiments/canonical_exact_serialized_cache__part06.zip"
+      ],
+      "included_files": 77,
+      "included_source_bytes": 88856652,
+      "included_packaged_bytes": 88854170,
+      "redacted_files": 4
+    },
+    {
+      "experiment_id": "engineering_exact_memo_CPU_diagnostic",
+      "status": "completed",
+      "archives": [
+        "experiments/engineering_exact_memo_CPU_diagnostic__part01.zip"
+      ],
+      "included_files": 5,
+      "included_source_bytes": 16519,
+      "included_packaged_bytes": 16519,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "engineering_exact_memo_actual30",
+      "status": "completed",
+      "archives": [
+        "experiments/engineering_exact_memo_actual30__part01.zip"
+      ],
+      "included_files": 81,
+      "included_source_bytes": 8433909,
+      "included_packaged_bytes": 8432175,
+      "redacted_files": 2
+    },
+    {
+      "experiment_id": "simple_rule_diagnosis_and_bias",
+      "status": "completed",
+      "archives": [
+        "experiments/simple_rule_diagnosis_and_bias__part01.zip",
+        "experiments/simple_rule_diagnosis_and_bias__part02.zip"
+      ],
+      "included_files": 24,
+      "included_source_bytes": 32474768,
+      "included_packaged_bytes": 32474132,
+      "redacted_files": 4
+    },
+    {
+      "experiment_id": "GPT6_blind_challenge600",
+      "status": "completed",
+      "archives": [
+        "experiments/GPT6_blind_challenge600__part01.zip"
+      ],
+      "included_files": 7,
+      "included_source_bytes": 291354,
+      "included_packaged_bytes": 291354,
+      "redacted_files": 0
+    },
+    {
+      "experiment_id": "dataset_and_difficulty_protocol",
+      "status": "completed",
+      "archives": [
+        "experiments/dataset_and_difficulty_protocol__part01.zip"
+      ],
+      "included_files": 11,
+      "included_source_bytes": 179559,
+      "included_packaged_bytes": 179545,
+      "redacted_files": 1
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact": "methods/source_code_and_frozen_plans.zip",
+      "bytes": 899591,
+      "sha256": "27c2d01330421d35d6f8f143ed2605b52ed67a0c8c43c9dd7f0eb541141893c7",
+      "file_count": 226,
+      "role": "source_code"
+    },
+    {
+      "artifact": "experiments/original_models_and_classical_baselines__part01.zip",
+      "bytes": 2675326,
+      "sha256": "b3af38a62ccde1cff9706cf961ce9a3bf994c737533286bcdca622155d0d8d23",
+      "file_count": 303,
+      "role": "experiment_evidence",
+      "experiment_id": "original_models_and_classical_baselines"
+    },
+    {
+      "artifact": "experiments/final_system_vs_current_gpt_rule_fullbge__part01.zip",
+      "bytes": 422363,
+      "sha256": "06f712c2f04953a56f7f9a79776510d4d7ecc06d9e58b84167b343f87572d231",
+      "file_count": 17,
+      "role": "experiment_evidence",
+      "experiment_id": "final_system_vs_current_gpt_rule_fullbge"
+    },
+    {
+      "artifact": "experiments/all115_heldout_router_configurations__part01.zip",
+      "bytes": 52598,
+      "sha256": "c4869483b60db637e6c9f3cca690ff96b52790eebff4fd2518d9b4b101a4c69a",
+      "file_count": 10,
+      "role": "experiment_evidence",
+      "experiment_id": "all115_heldout_router_configurations"
+    },
+    {
+      "artifact": "experiments/validation_search_cv__part01.zip",
+      "bytes": 18429,
+      "sha256": "41b8d46ca3757e274d986a80d7139376550184bdc49ec0fcb8bc3a523178ce4c",
+      "file_count": 12,
+      "role": "experiment_evidence",
+      "experiment_id": "validation_search_cv"
+    },
+    {
+      "artifact": "experiments/old_top3_earlystop_system__part01.zip",
+      "bytes": 17074,
+      "sha256": "13d48aa2d92008a778da7ea29963c54d69bc50d8b7573a0e87f818692d71b514",
+      "file_count": 8,
+      "role": "experiment_evidence",
+      "experiment_id": "old_top3_earlystop_system"
+    },
+    {
+      "artifact": "experiments/policy_exploration_caps__part01.zip",
+      "bytes": 197065,
+      "sha256": "21b1b23956b44a0b2f6460d27f4a05a3b309bf38a00b1b29b2318d35357c6f5b",
+      "file_count": 20,
+      "role": "experiment_evidence",
+      "experiment_id": "policy_exploration_caps"
+    },
+    {
+      "artifact": "experiments/original_gpt6_blind_and_posthoc_overlap__part01.zip",
+      "bytes": 1190052,
+      "sha256": "e52b53b23d45a4acb460ba66b145bd5758b67e9b321704be7eaf26e9385ce923",
+      "file_count": 43,
+      "role": "experiment_evidence",
+      "experiment_id": "original_gpt6_blind_and_posthoc_overlap"
+    },
+    {
+      "artifact": "experiments/selective_gpt6_verifier__part01.zip",
+      "bytes": 63654,
+      "sha256": "6cb817dedc5d31e1124201f5c88d3c207608a1124d8bd9021104712524225966",
+      "file_count": 17,
+      "role": "experiment_evidence",
+      "experiment_id": "selective_gpt6_verifier"
+    },
+    {
+      "artifact": "experiments/expanded_verifier_and_components__part01.zip",
+      "bytes": 348116,
+      "sha256": "d9508627efac88a0124ac49f1448fa0cba40f43afcad494f5200a264a14ef859",
+      "file_count": 42,
+      "role": "experiment_evidence",
+      "experiment_id": "expanded_verifier_and_components"
+    },
+    {
+      "artifact": "experiments/full_pair_route_real_gpu__part01.zip",
+      "bytes": 435642,
+      "sha256": "ca77f6d83b752b6f70bfe7ca2a829fa35251f62aea8379519b5f469981d077e9",
+      "file_count": 18,
+      "role": "experiment_evidence",
+      "experiment_id": "full_pair_route_real_gpu"
+    },
+    {
+      "artifact": "experiments/local_verifier_system_real_gpu__part01.zip",
+      "bytes": 578400,
+      "sha256": "aef316001a6b2dbae7a3a763b823efb02a7fdf7d846250412a30e8f263b5a3c6",
+      "file_count": 15,
+      "role": "experiment_evidence",
+      "experiment_id": "local_verifier_system_real_gpu"
+    },
+    {
+      "artifact": "experiments/exact_pair_route_before_cap_ranking__part01.zip",
+      "bytes": 154519,
+      "sha256": "7d13a944e1cc0d708a2cff9ddc5db2012ceb279cc9fbb000f28e2a98b02af00c",
+      "file_count": 20,
+      "role": "experiment_evidence",
+      "experiment_id": "exact_pair_route_before_cap_ranking"
+    },
+    {
+      "artifact": "experiments/cached_fullpool_gpt_replay__part01.zip",
+      "bytes": 90768,
+      "sha256": "6c453407ec07fbe4bd4ba6fe2b530ea596a1354a8c7865f99733c18a60bce69f",
+      "file_count": 13,
+      "role": "experiment_evidence",
+      "experiment_id": "cached_fullpool_gpt_replay"
+    },
+    {
+      "artifact": "experiments/hard_sample_failure_and_oracles__part01.zip",
+      "bytes": 30408,
+      "sha256": "ac589082caf95819ba40ed8f184029ff0f8292475b1cfc99f5df2e8e9eb66bb3",
+      "file_count": 13,
+      "role": "experiment_evidence",
+      "experiment_id": "hard_sample_failure_and_oracles"
+    },
+    {
+      "artifact": "experiments/preprocessing_rule_ablations__part01.zip",
+      "bytes": 303465,
+      "sha256": "98b8870a9980d148926c5ad9dc0fca8c7b100e04282ca78c209fee85e42b5457",
+      "file_count": 20,
+      "role": "experiment_evidence",
+      "experiment_id": "preprocessing_rule_ablations"
+    },
+    {
+      "artifact": "experiments/input_preprocessing_frozen_BGE_ablations__part01.zip",
+      "bytes": 608062,
+      "sha256": "ddb251c473f6769a91f90a4dae332969a108eb1adbf99469f918aa53f1a52e6e",
+      "file_count": 13,
+      "role": "experiment_evidence",
+      "experiment_id": "input_preprocessing_frozen_BGE_ablations"
+    },
+    {
+      "artifact": "experiments/raw_alberta_representation__part01.zip",
+      "bytes": 4407098,
+      "sha256": "ba51dfdb5b3308920b14eba1a6082bc5e923ba81eb847178ec057a78b8714f83",
+      "file_count": 62,
+      "role": "experiment_evidence",
+      "experiment_id": "raw_alberta_representation"
+    },
+    {
+      "artifact": "experiments/runtime_batch_fairness__part01.zip",
+      "bytes": 651764,
+      "sha256": "0e891ec1a572fd6154142dea6ce69a0651750083f9e641f34dcc79d3e71707d3",
+      "file_count": 19,
+      "role": "experiment_evidence",
+      "experiment_id": "runtime_batch_fairness"
+    },
+    {
+      "artifact": "experiments/smallsets_models_rules_complete__part01.zip",
+      "bytes": 138042,
+      "sha256": "e7bb106827ca3710085f3ecbfaf031ec08479b83a6a4b58105d122c3334dac69",
+      "file_count": 26,
+      "role": "experiment_evidence",
+      "experiment_id": "smallsets_models_rules_complete"
+    },
+    {
+      "artifact": "experiments/supplement_verifier_real_gpu__part01.zip",
+      "bytes": 1314762,
+      "sha256": "e8e56b3d7c82d33270fb566b72f9bd6a421b4b08996eb4b5c816b8758186d6e4",
+      "file_count": 17,
+      "role": "experiment_evidence",
+      "experiment_id": "supplement_verifier_real_gpu"
+    },
+    {
+      "artifact": "experiments/unit_strict_gate_real_gpu__part01.zip",
+      "bytes": 456393,
+      "sha256": "c2d4aca8a971bb7b62e00671c78a256c4b63e27f9d7e276029357d66f2d668ba",
+      "file_count": 18,
+      "role": "experiment_evidence",
+      "experiment_id": "unit_strict_gate_real_gpu"
+    },
+    {
+      "artifact": "experiments/qwen06_genuine_route__part01.zip",
+      "bytes": 1703556,
+      "sha256": "67a17a99055536bcc5881c1a30065b89d7510d13b65a2d913032bac682951dbe",
+      "file_count": 13,
+      "role": "experiment_evidence",
+      "experiment_id": "qwen06_genuine_route"
+    },
+    {
+      "artifact": "experiments/qwen06_genuine_route__part02.zip",
+      "bytes": 1360984,
+      "sha256": "81b0579bb538f8721d8a1ee6bebb5759e30a8aa0d25af2d79b7c451e81103a5c",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "qwen06_genuine_route"
+    },
+    {
+      "artifact": "experiments/qwen06_genuine_route__part03.zip",
+      "bytes": 1443087,
+      "sha256": "cf1b0b39f63c5154b2fc9cb08bc41ccd3bd7c8c6f14379465a8702a6c485f885",
+      "file_count": 4,
+      "role": "experiment_evidence",
+      "experiment_id": "qwen06_genuine_route"
+    },
+    {
+      "artifact": "experiments/qwen06_genuine_route__part04.zip",
+      "bytes": 1836634,
+      "sha256": "d5e903df92e6403e2f396822f2f98497d0b79d152e47a6d55f216164ad051795",
+      "file_count": 4,
+      "role": "experiment_evidence",
+      "experiment_id": "qwen06_genuine_route"
+    },
+    {
+      "artifact": "experiments/last_token_logits_AB__part01.zip",
+      "bytes": 188605,
+      "sha256": "999b2141642cb57b5675dfe8ae84e7eacf4f495d5709eccc00e58ff24d4694aa",
+      "file_count": 10,
+      "role": "experiment_evidence",
+      "experiment_id": "last_token_logits_AB"
+    },
+    {
+      "artifact": "experiments/qwen4_alberta_original_threshold_actual__part01.zip",
+      "bytes": 2310457,
+      "sha256": "520639ae74afa22f322d0d91a87e4b9544c53deec0c1a98525882084db4298ba",
+      "file_count": 29,
+      "role": "experiment_evidence",
+      "experiment_id": "qwen4_alberta_original_threshold_actual"
+    },
+    {
+      "artifact": "experiments/generic_dimension_and_size_frozen_actual__part01.zip",
+      "bytes": 3153,
+      "sha256": "e6e393b3011042b35562c70f308c2e80d7d9172487b94e634c8a5c4c4d021f78",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "generic_dimension_and_size_frozen_actual"
+    },
+    {
+      "artifact": "experiments/generic_dimension_and_size_frozen_actual__part02.zip",
+      "bytes": 1290648,
+      "sha256": "f1803de87c2aeb4c30e82f2c1351428e860b3d6deda0d3fb672a6834b90a7433",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "generic_dimension_and_size_frozen_actual"
+    },
+    {
+      "artifact": "experiments/generic_dimension_and_size_frozen_actual__part03.zip",
+      "bytes": 1181341,
+      "sha256": "e738ed8122069598fac598782eb0c91ec16de802cd0d8280807f8dabcc4e07a4",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "generic_dimension_and_size_frozen_actual"
+    },
+    {
+      "artifact": "experiments/generic_dimension_and_size_frozen_actual__part04.zip",
+      "bytes": 1943286,
+      "sha256": "e472e38acf9700ed56d018855b7f8dbb9a9783616536cd123690296944d6e90d",
+      "file_count": 26,
+      "role": "experiment_evidence",
+      "experiment_id": "generic_dimension_and_size_frozen_actual"
+    },
+    {
+      "artifact": "experiments/fixed_dimension_output_filters_600__part01.zip",
+      "bytes": 18435,
+      "sha256": "6eb21303c79f70616e84471b6247a785a5bdbe748ff85b8f65b1bd2e08d1e867",
+      "file_count": 7,
+      "role": "experiment_evidence",
+      "experiment_id": "fixed_dimension_output_filters_600"
+    },
+    {
+      "artifact": "experiments/engineering_constraints_frozen_challenge__part01.zip",
+      "bytes": 135082,
+      "sha256": "e272235f03e75d185208e62619970513416fc5f10e027c3c9dd27d7a0f1fc64a",
+      "file_count": 17,
+      "role": "experiment_evidence",
+      "experiment_id": "engineering_constraints_frozen_challenge"
+    },
+    {
+      "artifact": "experiments/training_derived_abbreviation_rules__part01.zip",
+      "bytes": 420668,
+      "sha256": "4d713d0b9c811390dfca42550d33320df97ef408f1401268ddb7e8122cce11cd",
+      "file_count": 9,
+      "role": "experiment_evidence",
+      "experiment_id": "training_derived_abbreviation_rules"
+    },
+    {
+      "artifact": "experiments/cheap_feature_models_45__part01.zip",
+      "bytes": 609583,
+      "sha256": "4172869d9204cef4a96500f8c4fbbcfc5d1f88903af4be25bb5010ea26f71a22",
+      "file_count": 8,
+      "role": "experiment_evidence",
+      "experiment_id": "cheap_feature_models_45"
+    },
+    {
+      "artifact": "experiments/semantic_frozen_BGE_heads_12__part01.zip",
+      "bytes": 10013201,
+      "sha256": "e27fb1883c73a140555e29d5ae8e6dfaf4a4fd1e2f61f3fdcd96b39dc264284d",
+      "file_count": 11,
+      "role": "experiment_evidence",
+      "experiment_id": "semantic_frozen_BGE_heads_12"
+    },
+    {
+      "artifact": "experiments/new_BGE_LoRA_three_schemes__part01.zip",
+      "bytes": 1653470,
+      "sha256": "e2d0565cf6ef63eb7c2831c6c5d7863280f6110f8c2909d964afc6fdba72f630",
+      "file_count": 33,
+      "role": "experiment_evidence",
+      "experiment_id": "new_BGE_LoRA_three_schemes"
+    },
+    {
+      "artifact": "experiments/new_LoRA_fixed_router_CPU_replay__part01.zip",
+      "bytes": 9148,
+      "sha256": "2f52e4dabf9107bac3cfc541aab3b99d98a0477a4f3c9af612eb4be903d69e04",
+      "file_count": 4,
+      "role": "experiment_evidence",
+      "experiment_id": "new_LoRA_fixed_router_CPU_replay"
+    },
+    {
+      "artifact": "experiments/canonical_exact_serialized_cache__part01.zip",
+      "bytes": 229086,
+      "sha256": "e97da393aeab0368cdbe18d2ba6d08f7415e4c39cb17b19bf3bba9a51e186aeb",
+      "file_count": 36,
+      "role": "experiment_evidence",
+      "experiment_id": "canonical_exact_serialized_cache"
+    },
+    {
+      "artifact": "experiments/canonical_exact_serialized_cache__part02.zip",
+      "bytes": 19829672,
+      "sha256": "9a7faa326be3c66a59cd09e08d6236e4c001eee11fb4afb10fba41d4c9646b55",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "canonical_exact_serialized_cache"
+    },
+    {
+      "artifact": "experiments/canonical_exact_serialized_cache__part03.zip",
+      "bytes": 19832517,
+      "sha256": "d4dd92f0e9d30f9bd387b4fb05ba2bc6a01dc61d924ea5e145fa618129e06438",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "canonical_exact_serialized_cache"
+    },
+    {
+      "artifact": "experiments/canonical_exact_serialized_cache__part04.zip",
+      "bytes": 19829997,
+      "sha256": "c296eb8cb1391cc056076e672ad47982042f6b05ea6fdd82204408db1d1190cd",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "canonical_exact_serialized_cache"
+    },
+    {
+      "artifact": "experiments/canonical_exact_serialized_cache__part05.zip",
+      "bytes": 19536360,
+      "sha256": "b71b0532afa154a03e2fa1add658770e8837ad07ee31ad27b8678cdd3db9a2f6",
+      "file_count": 27,
+      "role": "experiment_evidence",
+      "experiment_id": "canonical_exact_serialized_cache"
+    },
+    {
+      "artifact": "experiments/canonical_exact_serialized_cache__part06.zip",
+      "bytes": 4382140,
+      "sha256": "a90824125f9ccedd7c6b9d3a11605369ea16ec6f42cedbfa0c43c22b474c4634",
+      "file_count": 11,
+      "role": "experiment_evidence",
+      "experiment_id": "canonical_exact_serialized_cache"
+    },
+    {
+      "artifact": "experiments/engineering_exact_memo_CPU_diagnostic__part01.zip",
+      "bytes": 7060,
+      "sha256": "5eeb7baf3928774a545fa20d57b5a948481dc1cc427adc98aad8aaaa1e84402b",
+      "file_count": 5,
+      "role": "experiment_evidence",
+      "experiment_id": "engineering_exact_memo_CPU_diagnostic"
+    },
+    {
+      "artifact": "experiments/engineering_exact_memo_actual30__part01.zip",
+      "bytes": 3369132,
+      "sha256": "2bc4d7f8a2bebf416af51f705c51d8f255500e4501977e7a58fcf9b362a97d44",
+      "file_count": 81,
+      "role": "experiment_evidence",
+      "experiment_id": "engineering_exact_memo_actual30"
+    },
+    {
+      "artifact": "experiments/simple_rule_diagnosis_and_bias__part01.zip",
+      "bytes": 383218,
+      "sha256": "bcafc60d6a6e15c6b6af09e4b0f7db935200b280897494888a71a6fb6d7a01ff",
+      "file_count": 1,
+      "role": "experiment_evidence",
+      "experiment_id": "simple_rule_diagnosis_and_bias"
+    },
+    {
+      "artifact": "experiments/simple_rule_diagnosis_and_bias__part02.zip",
+      "bytes": 1322723,
+      "sha256": "adfb4b460d34654e39609b07ae5eeeff979d3aa192848cfddbb98e36fadd3ef8",
+      "file_count": 23,
+      "role": "experiment_evidence",
+      "experiment_id": "simple_rule_diagnosis_and_bias"
+    },
+    {
+      "artifact": "experiments/GPT6_blind_challenge600__part01.zip",
+      "bytes": 47866,
+      "sha256": "854e458aea98ba4f3684d5ee8b50a562dc0e85864dab3deeafd9c7727c11963f",
+      "file_count": 7,
+      "role": "experiment_evidence",
+      "experiment_id": "GPT6_blind_challenge600"
+    },
+    {
+      "artifact": "experiments/dataset_and_difficulty_protocol__part01.zip",
+      "bytes": 28874,
+      "sha256": "828c336f3ece7cf578654d7ede83d452c9d805213ab84f5a1d13dadaffe918c8",
+      "file_count": 11,
+      "role": "experiment_evidence",
+      "experiment_id": "dataset_and_difficulty_protocol"
+    },
+    {
+      "artifact": "experiments/pending_and_superseded_status.zip",
+      "bytes": 5067,
+      "sha256": "f433a1110500f016c2defc99e03d011da2eb8fb7f3d77f7100bd02630a96f928",
+      "file_count": 5,
+      "role": "status_evidence"
+    },
+    {
+      "artifact": "experiments/old_top3_earlystop_system__part02.zip",
+      "bytes": 425700,
+      "sha256": "0defbb2107e10cd241cc9edf74a4a220e9aa6056823c86ca8b81ff1e880aa373",
+      "file_count": 9,
+      "role": "experiment_evidence",
+      "experiment_id": "old_top3_earlystop_system"
+    }
+  ],
+  "source_abs_paths_omitted": true,
+  "all_packaged_text_scanned": true,
+  "redaction_policy": "All private absolute workstation/server roots and IP addresses removed. Credentials removed if encountered; original and packaged hashes recorded. Original files remain unchanged. Internal historical source hashes are not rewritten to masquerade as hashes of redacted release bytes.",
+  "unavailable_or_not_packaged": [
+    {
+      "asset": "Original BGE/Qwen trained checkpoint weight bytes",
+      "status": "not_available_locally; server paths recorded in original source manifests",
+      "reproduction": "Original training scripts provided; require public pinned base model and user-owned training runtime."
+    },
+    {
+      "asset": "New robust BGE LoRA adapters",
+      "status": "locally_available_but_not_in_this_evidence_release",
+      "count": 9,
+      "total_bytes": 94575708,
+      "reproduction": "Included training histories, selectors and original training code; actual adapters require separate future weight release."
+    },
+    {
+      "asset": "Historical MiniLM checkpoints",
+      "status": "locally_available_but_not_packaged",
+      "count": 12,
+      "total_bytes": 1132995368
+    },
+    {
+      "asset": "Pretrained base models",
+      "status": "not_packaged; download under upstream terms"
+    },
+    {
+      "asset": "Fresh GPT API responses, billing and service latency",
+      "status": "not_run"
+    },
+    {
+      "asset": "Independent human challenge600 and Alberta gold",
+      "status": "not_completed"
+    },
+    {
+      "asset": "Fresh blind selective GPT 19query/54pair judgments",
+      "status": "not_run"
+    }
+  ],
+  "dependencies": {
+    "recorded_neural_environment": {
+      "python": "Python 3 (patch version not consistently recorded)",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.6",
+      "peft": "0.20.0",
+      "CUDA": "12.8",
+      "GPU": "NVIDIA GeForce RTX 4090",
+      "dtype": "bfloat16"
+    },
+    "historical_embedding_environment": {
+      "sentence-transformers": "3.4.1",
+      "backend": "Apple MPS"
+    },
+    "unversioned_required_libraries": [
+      "numpy",
+      "pandas",
+      "scikit-learn",
+      "scipy",
+      "joblib",
+      "threadpoolctl",
+      "huggingface_hub",
+      "openpyxl",
+      "matplotlib",
+      "Pillow",
+      "reportlab",
+      "requests"
+    ],
+    "token_audit_constraints": [
+      "tokenizers>=0.23,<0.24",
+      "jinja2>=3.1,<4",
+      "certifi>=2025.0"
+    ],
+    "portable_cpu_recompute": "Python standard library only"
+  },
+  "base_models": [
+    {
+      "id": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e"
+    },
+    {
+      "id": "Qwen/Qwen3-Reranker-0.6B",
+      "revision": "see per-run manifest"
+    },
+    {
+      "id": "Qwen/Qwen3-Reranker-4B",
+      "revision": "see per-run manifest"
+    },
+    {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "see verifier manifest"
+    }
+  ],
+  "source_not_found": [],
+  "verification": "methods/PACKAGE_QA.json",
+  "portable_cpu_entry_point": "methods/recompute.py",
+  "portable_cpu_qa": "methods/CPU_RECOMPUTATION_QA.json",
+  "requirements_files": [
+    "methods/requirements-experiments.txt",
+    "methods/requirements-token-audit.txt"
+  ],
+  "standalone_files": [
+    {
+      "path": "methods/recompute.py",
+      "bytes": 9902,
+      "sha256": "846fd2b57b56010298c1731042799543a56933abcb9aa44bc5d157b810ae18fa"
+    },
+    {
+      "path": "methods/requirements-experiments.txt",
+      "bytes": 759,
+      "sha256": "ab5663af4351444770005e3f2a2bcec3795fe25d3a2b85f5094ca440def2fa71"
+    },
+    {
+      "path": "methods/requirements-token-audit.txt",
+      "bytes": 131,
+      "sha256": "ac24d004fcefd683d69f0e1c1c8a64ebcdb143f3a0f8433984b3b61e90d9d71f"
+    },
+    {
+      "path": "methods/README.md",
+      "bytes": 6643,
+      "sha256": "d9e93868dfda6106395a64351d5aa64a8b992208556ad3d609c8d19ea5e48be6"
+    },
+    {
+      "path": "methods/PACKAGE_QA.json",
+      "bytes": 827,
+      "sha256": "5d4db521190561d697b456248cff255f7686b9764aa7c7a3e03725e0c77efc46"
+    },
+    {
+      "path": "methods/CPU_RECOMPUTATION_QA.json",
+      "bytes": 1578,
+      "sha256": "ed2e29740269b9ea5d605aff54d7dfa7ac9e32e96d68b27d7406f9cc51c040bb"
+    }
+  ]
+}

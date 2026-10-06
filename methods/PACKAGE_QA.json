@@ -1,0 +1,23 @@
+{
+  "schema": "bidupm-methods-package-qa-v1",
+  "all_passed": true,
+  "source_code_files": 226,
+  "python_sources_parse": 177,
+  "archive_member_checks": 1350,
+  "redacted_member_checks": 164,
+  "archive_count": 53,
+  "archive_bytes": 130404341,
+  "maximum_archive_bytes": 19832517,
+  "all_archives_below_20MiB": true,
+  "source_files_changed": false,
+  "new_model_experiments_run": false,
+  "checks": [
+    "Every ZIP CRC verified",
+    "Every archived file verified against its packaged SHA256",
+    "Every ZIP verified against master SHA256",
+    "Private absolute workstation/server paths absent from all text and compressed CSV members",
+    "Common credential formats absent",
+    "Every archived Python source parses without executing it",
+    "Source hashes retained separately when released bytes were redacted"
+  ]
+}
