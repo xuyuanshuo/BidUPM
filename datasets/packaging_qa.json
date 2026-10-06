@@ -1,0 +1,18 @@
+{
+  "files_checked": 258,
+  "shards": 11,
+  "alias_count": 2,
+  "stored_files": 270,
+  "stored_bytes": 435063893,
+  "max_file_bytes": 18912568,
+  "errors": [],
+  "private_path_findings": [],
+  "credential_pattern_findings": [],
+  "full_source_sha256": "33bed8dd441271402fefb7e2197fc161707640d55ec9bc2e9eee36c80f307882",
+  "full_source_rows": 8518172,
+  "status": "passed",
+  "notes": [
+    "Hash/size and privacy scanning covers identity and decompressed text payloads; original binary source workbooks are preserved.",
+    "Independent verifier additionally checks CSV rows, schema and sharded reconstruction."
+  ]
+}
