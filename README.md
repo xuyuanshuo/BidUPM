@@ -1,34 +1,37 @@
 # BidUPM
 
-**Construction bid-item matching datasets and experimental evidence.**  
-**工程招投标清单匹配：数据集、方法和实验复现资料。**
+**Construction bid-item matching datasets and experimental evidence.**
 
-本仓库整理当前研究数据及独立的历史数据版本，包括 **Alberta 原始表格与全部
-候选配对**。数据按来源、版本、用途和标注状态组织；保留标注依据、冻结记录、
-字段说明和 SHA-256 校验值。数据快照日期：**2026-10-05**。
+This repository packages the current research data and distinct historical
+versions, including the original Alberta bid form, UPA workbooks, and all
+current candidate-pair representations. Files are organized by source, version,
+use, and label status. Provenance notes, frozen records, field definitions, and
+SHA-256 checksums are retained. Snapshot date: **2026-10-05**.
 
-## 数据集
+## Datasets
 
-| 数据集 | 内容与规模 | 标签性质 |
+| Dataset | Contents and scale | Label status |
 |---|---|---|
-| [BidUPM-12k](docs/DATASET_CARDS.md#bidupm12k) | 12,092 对；训练、验证、锁定测试、无参考和外部集合 | 人工审阅与裁决；初始建议列保留为历史 |
-| [Alberta](docs/DATASET_CARDS.md#alberta) | 135 个查询；UPA 2024 的 237 项和 2026 的 264 项；合计 67,635 个候选配对 | 输入不含标签；另存 AI 参考标注及空白人工模板 |
-| [困难诊断集](docs/DATASET_CARDS.md#challenge600) | 600 对，基于 300 个真实来源锚点构造 | 构造意图标签；人工标注尚未完成 |
-| [历史 Alberta](docs/DATASET_CARDS.md#alberta_historical) | 2019–2026 UPA、跨年代码锚点和价格案例 | 代码规则及价格实验结果 |
-| [历史数据版本](datasets/README.md) | 来源主集、价格案例、GPT55 扩展基准、历史人工确认集 | 分别记录人工、AI 和待标注状态 |
-| [原始 NCDOT](docs/DATASET_CARDS.md#ncdot_raw) | 59,004 个清单记录、144,993 个价格记录；8,518,172 个规则生成配对 | 原始数据及规则标签 |
-| [来源材料](docs/DATASET_CARDS.md#source_materials) | 原始招投标表、标准化记录及历史检索候选 | 来源与候选生成证据 |
+| [BidUPM-12k](docs/DATASET_CARDS.md#bidupm12k) | 12,092 pairs; training, validation, locked test, no-reference, and external partitions | Human-reviewed and adjudicated; initial proposal columns are historical only |
+| [Alberta](docs/DATASET_CARDS.md#alberta) | 135 queries; 237 UPA 2024 items and 264 UPA 2026 items; 67,635 candidate pairs | Inputs are unlabeled; AI reference labels and a blank human-review template are separate |
+| [Challenge600](docs/DATASET_CARDS.md#challenge600) | 600 pairs constructed from 300 real-source anchors | Construction-intent labels; independent human annotation is incomplete |
+| [Historical Alberta](docs/DATASET_CARDS.md#alberta_historical) | 2019–2026 UPA entries, cross-year code anchors, and price cases | Code rules and derived price-study outputs |
+| [Historical versions](datasets/README.md) | Source corpora, price cases, GPT-5.5 expansion, and historical confirmed sets | Human, AI, and pending-review status are recorded separately |
+| [Raw NCDOT](docs/DATASET_CARDS.md#ncdot_raw) | 59,004 bid-item rows, 144,993 price records, and 8,518,172 rule-mined pairs | Raw source data and deterministic rule labels |
+| [Source materials](docs/DATASET_CARDS.md#source_materials) | Original bid tabs, normalized records, and historical retrieval candidates | Source and candidate-generation evidence |
 
-完整文件清单：[datasets/manifest.json](datasets/manifest.json)。
-下载包：[data_archives/](data_archives/README.md)。
-字段与读取方法：[docs/DATA_FORMAT.md](docs/DATA_FORMAT.md)。
+The complete packaged-file inventory is in [datasets/manifest.json](datasets/manifest.json).
+Transport archives are in [data_archives/](data_archives/README.md). Field
+formats and readers are described in [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md).
 
-**Alberta 的 AI 参考标注和 600 对数据的构造标签不能称为独立人工金标准。**
-历史版本与当前正式集合也不能直接合并后计算论文指标。
+**Alberta AI references and the constructed Challenge600 labels are not
+independent human gold standards.** Historical versions must not be merged with
+the current canonical sets when computing paper metrics.
 
-## 下载和还原
+## Download and restore
 
-需要 Git 和 Python 3.10 或更高版本。数据工具仅使用 Python 标准库。
+Git and Python 3.10 or later are required. The restoration and verification
+tools use only the Python standard library.
 
 ```sh
 git clone https://github.com/xuyuanshuo/BidUPM.git
@@ -37,51 +40,57 @@ python scripts/materialize_datasets.py --restore-archives data_archives --restor
 python scripts/verify_datasets.py
 ```
 
-28 个独立 ZIP 完整保存打包后的数据目录，共约 281 MiB。还原程序先核对包及
-每个文件的哈希，再恢复目录。较大的 CSV 保持 `.gz` 压缩；可按需解压，例如：
+Twenty-eight independent ZIP archives preserve the complete packaged dataset
+tree (about 281 MiB). Restoration verifies each archive and member hash before
+writing the files. Large CSV files remain gzip-compressed and can be expanded on
+demand:
 
 ```sh
 python scripts/materialize_datasets.py --dataset alberta --output-dir materialized
 python scripts/materialize_datasets.py --dataset bidupm12k --output-dir materialized
 ```
 
-大型原始配对 CSV 已保存在 11 个无损分片中；需要完整约 5 GB 的 CSV 时运行：
+The large raw-pair CSV is stored losslessly as 11 ordered shards. To reconstruct
+the approximately 5 GB CSV explicitly:
 
 ```sh
 python scripts/materialize_datasets.py --dataset ncdot_raw/full_pairs --output-dir materialized
 ```
 
-也可通过 GitHub 的 **Code → Download ZIP** 下载仓库，再运行相同命令。
+You can also download the repository through GitHub's **Code → Download ZIP**
+and run the same commands.
 
-## 方法与实验
+## Methods and experiments
 
-[方法说明](docs/METHODS.md)记录传统基线、BGE/Qwen 适配与排序、验证器、规则优先
-分流、缓存、补充集和 Alberta 迁移实验。[实验索引](experiments/EXPERIMENT_INDEX.csv)
-标明各方法的完成状态和原始证据位置；[methods/](methods/README.md) 提供方法代码、
-CPU 复核工具及复现条件；[experiments/](experiments/README.md) 保存实际实验资料。
+[docs/METHODS.md](docs/METHODS.md) records the classical baselines, BGE/Qwen
+adaptation and ranking, verification, rule-first routing, caching, diagnostic
+sets, and Alberta transfer experiments. The [experiment index](experiments/EXPERIMENT_INDEX.csv)
+records completion status and authoritative evidence paths. [methods/](methods/README.md)
+contains the method code, CPU replay utility, and reproducibility conditions;
+[experiments/](experiments/README.md) contains the released experiment evidence.
 
-评估须区分配对质量与实际至多三条返回结果。主评估采用 218 个查询；220 查询的
-计时口径包含两个重分类审计池。阈值在验证集确定，测试集和 Alberta 不用于调参。
-三组既有适配器 seed 与仅一个训练 seed 的新 LoRA 实验分别记录。
+Pair quality must be reported separately from the actual at-most-three returned
+results. The primary evaluation uses 218 queries; the 220-query timing scope
+includes two reclassified audit pools. Thresholds are selected on validation;
+test and Alberta outputs are not tuning data. The three existing adapter seeds
+and the single-seed new LoRA experiments are identified separately.
 
-原始 BGE/Qwen 训练权重未在可访问的本地材料中找到，仓库明确列出这一复现条件；
-保存的分数与结果可复核，重新运行神经模型仍需对应权重和模型运行环境。
+The original BGE/Qwen training weights were not found in the accessible local
+materials. Frozen scores and results can be audited, but a fresh neural rerun
+still requires the corresponding weights and runtime environment.
 
-## 来源、许可和引用
+## Sources, licensing, and citation
 
-第三方原始数据的来源链接保留在各数据集的来源清单中。8 个 WSDOT 原始工作簿
-未在本地找到，现有解析记录及来源链接已保留，缺失情况在数据说明中公开记录。
+Source URLs for third-party data are retained in the source manifests. Eight
+original WSDOT workbooks were not found locally; their parsed records and public
+URLs are retained, and the gap is documented in the dataset cards.
 
-[LICENSE](LICENSE) 的 MIT 许可仅覆盖本次编写的 `scripts/` 数据工具。
-数据及既有实验材料的权利状态见 [DATA_LICENSE.md](DATA_LICENSE.md)，本快照未设置
-统一数据许可。引用本快照可使用 [CITATION.cff](CITATION.cff)，并保留原始来源归属。
+Original source filenames, workbook text, and annotation rationales are preserved
+verbatim when needed for provenance; those source records may contain non-English
+text even though the repository documentation is English.
 
-## English quick start
-
-This snapshot includes the adjudicated BidUPM benchmark, the Alberta bid form
-and UPA catalogs, all current Alberta input representations, the controlled
-600-pair diagnostic set, distinct historical datasets, and the raw NCDOT corpus.
-Download the repository and run the restore and verification commands above.
-Alberta references are AI-generated and provisional; challenge labels describe
-construction intentions. Neither is an independently adjudicated human gold
-standard. See the dataset cards and method documentation before comparing results.
+The [MIT license](LICENSE) covers only the original data tooling in `scripts/`.
+Rights for the data and pre-existing experiment materials are described in
+[DATA_LICENSE.md](DATA_LICENSE.md); this snapshot does not assign a uniform data
+license. Cite this snapshot with [CITATION.cff](CITATION.cff) and preserve the
+original source attribution.
