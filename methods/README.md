@@ -1,6 +1,6 @@
 # Completed methods and reproducibility evidence
 
-本目录提供已经实施的方法代码、冻结计划和可在普通电脑运行的配对指标复算入口。`../experiments/EXPERIMENT_INDEX.csv` 对应 38 个方法族以及待完成、历史部分记录；每个方法的结果证据位于索引指定的 ZIP 分卷。原模型权重的可用状态在 `METHODS_MANIFEST.json` 中逐项说明。
+This directory provides implemented method code, frozen plans, and a pair-metric replay entry point that runs on an ordinary computer. `../experiments/EXPERIMENT_INDEX.csv` covers 38 method families plus pending and historical records; each method's result evidence is in the ZIP parts named by the index. Availability of original model weights is recorded in `METHODS_MANIFEST.json`.
 
 ## What is included
 
