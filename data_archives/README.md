@@ -35,6 +35,4 @@ joined bytes by streaming, without writing that large file. Manual ZIP
 extraction into the repository root is also possible, but the supplied restore
 command verifies hashes and rejects unsafe archive paths.
 
-数据按数据集分成独立 ZIP；全部文件及其校验值见清单。原始 Excel、CSV、标注、
-数据卡和来源证据均保留在包内。下载仓库后运行还原命令即可获得完整目录，
-无需安装额外 Python 库。各标签类型和数据权利状态见 `datasets/README.md`。
+Each dataset is split into independent ZIP archives; the inventory lists every file and checksum. Original Excel, CSV, annotation, dataset-card, and source evidence files are retained in the archives. Run the restore command after cloning to recover the complete tree; no additional Python packages are required. Label types and data-rights status are documented in `datasets/README.md`.
