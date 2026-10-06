@@ -1,4 +1,4 @@
-# BidUPM datasets / 数据集索引
+# BidUPM datasets
 
 This package preserves the current benchmark, every identified distinct historical corpus, available source materials, and all observed Alberta experiment inputs. Labels are kept exactly as supplied; privacy redactions apply only to local paths and explicit connection metadata in text files.
 
@@ -27,6 +27,6 @@ Byte-identical duplicates have SHA aliases in the main manifest. The materializa
 
 Eight original WSDOT source workbooks named by canonical provenance were not found locally. Their parsed source rows and public URLs are retained; the main manifest records this gap explicitly. Source licence/redistribution rights are not established by the supplied evidence, including the user-supplied form. Original public agency materials retain their owners' rights; this package does not invent a blanket data licence. Original binary workbook bytes are preserved.
 
-## 使用要点
+## Usage notes
 
-训练只使用当前 `bidupm12k/training/`；阈值只在 validation 上确定。Locked、No-reference、External 分开报告。Alberta 暂无独立人工裁决金标，AI 初审不是人工金标。600 对诊断集使用构造标签，按 300 个锚点分组分析。完整原始规则挖掘集合不能当作人工语义金标。旧版数据独立保留，不能混入当前测试集后重新解释指标。
+Train only on the current `bidupm12k/training/` partition, and select thresholds on validation only. Report Locked, No-reference, and External partitions separately. Alberta has no independent human-adjudicated gold; its AI first pass is not human gold. Analyze the 600-pair diagnostic set by its 300 anchors and retain its construction labels. The full raw rule-mined collection is not human semantic gold. Historical versions are retained independently and must not be merged into the current test set when interpreting metrics.
