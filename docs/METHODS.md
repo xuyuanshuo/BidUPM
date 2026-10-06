@@ -1,8 +1,8 @@
-# Methods and experiment provenance / 方法与实验出处
+# Methods and experiment provenance
 
 This release includes datasets plus archived source code, frozen plans, completed experiment summaries and selected prediction evidence. `methods/METHODS_MANIFEST.json` and `experiments/ARTIFACTS_MANIFEST.json` specify the actual packaged files, hashes and private-path redactions. `experiments/EXPERIMENT_INDEX.csv` distinguishes completed, partial and unexecuted conditions. Original neural weights are not fully distributed; archived server scripts require the dependencies and checkpoint assets described in `methods/README.md`.
 
-本次优先整理数据，并已收录方法代码、冻结方案、实验汇总及选定的真实预测证据。归档清单逐项记录实际收录文件、校验值和路径脱敏；未完成条件与已完成方法分开列出。索引中的 `output/...` 保留为原工作区的来源路径，归档列指向本仓库的数据包。模型权重与运行环境的缺失条件见 `methods/README.md`。
+This release prioritizes the data layer and includes the implemented method code, frozen plans, experiment summaries, and selected real-prediction evidence. The archive inventory records every included file, checksum, and path redaction; incomplete conditions are listed separately from completed methods. `output/...` entries in the index preserve source-workspace paths, while the archive column points to the packaged repository evidence. Missing model weights and runtime conditions are documented in `methods/README.md`.
 
 ## Task and evaluation contract
 

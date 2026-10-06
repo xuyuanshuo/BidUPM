@@ -1,4 +1,4 @@
-# Dataset cards / 各数据集说明
+# Dataset cards
 
 The complete directory is restored from `data_archives/`. These cards are also retained inside those archives.
 
